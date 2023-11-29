@@ -1,9 +1,9 @@
 {
 	"internal_game-id": "",
 	"external_game-id": "",
-	"title": "PotatoKingdom",
-	"description": "サンプルゲームとして制作された、サイドビューのアクションゲームです。\nディストピアと化したコロニーから守護者を倒して脱出しましょう。",
-	"author": "株式会社KADOKAWA",
+	"title": "potatokingdom",
+	"description": "",
+	"author": "",
 	"version": "1.0",
 	"player-version": "1.0.6"
 }
