@@ -1,10 +1,11 @@
 {
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 0,
 	"playerCount": 1,
 	"mode30Fps": false,
+	"fix60FpsMode": false,
 	"tileWidth": 16,
 	"tileHeight": 16,
 	"screenWidth": 320,
@@ -20,7 +21,8 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxPlayerVersion": "1.0.5",
+	"nxSupportForSingleJoyCon": true,
+	"nxPlayerVersion": "1.0.6",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":4,
@@ -1261,7 +1263,7 @@
 					
 					],
 					"layer1": {
-						"tile": {						"0,5": { "tilesetId": 5, "x": 10, "y": 4  },
+						"tile": {						"0,5": { "tilesetId": 5, "x": 4, "y": 9  },
 						"0,6": { "tilesetId": 5, "x": 11, "y": 5  },
 						"0,7": { "tilesetId": 5, "x": 11, "y": 5  },
 						"0,8": { "tilesetId": 4, "x": 2, "y": 1  },
@@ -1607,7 +1609,7 @@
 		{"id":16,"name":"enemy1","filename":"img/016.png","srcFilename":"E:/potato kingdom/enemy1.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":17,"name":"enemy2","filename":"img/017.png","srcFilename":"E:/potato kingdom/enemy2.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":18,"name":"player_jump","filename":"img/018.png","srcFilename":"E:/potato kingdom/player_jump.png","horzDivCount":5,"vertDivCount":1,			"folder": false},
-		{"id":19,"name":"Player-landing","filename":"img/019.png","srcFilename":"E:/potato kingdom/Player-landing.png","horzDivCount":4,"vertDivCount":2,			"folder": false}
+		{"id":19,"name":"hpBar","filename":"img/019.png","srcFilename":"I:/Games/myGames/potatokingdom/hpBar.png","horzDivCount":8,"vertDivCount":8,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -1888,7 +1890,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Reset",
+			"name": "Initialize Resources",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -3191,7 +3193,7 @@
 	"x": 624,
 	"y": 0,
 	"width": 16,
-	"height": 128,
+	"height": 80,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
 	"rePortalDirectionBit": 64
@@ -3201,7 +3203,7 @@
 	"x": 0,
 	"y": 0,
 	"width": 16,
-	"height": 128,
+	"height": 80,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
 	"rePortalDirectionBit": 16
