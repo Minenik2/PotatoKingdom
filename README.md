@@ -82,3 +82,5 @@ Dialogue system?
 Sound effects
 Player animation
 Special effects
+
+Kanban board: https://trello.com/b/TiITe8YX/potato-kindom
