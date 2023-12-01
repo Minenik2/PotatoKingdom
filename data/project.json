@@ -3059,7 +3059,7 @@
 	"transitionPortalList": [
 				{
 			"id": 1,
-			"name": "portal_001",
+			"name": "s1 <-> s2",
 			"reverseMoveSettingSame": true,
 			"movableList": [true, true],
 			"reverseRePortalDirection": true,
