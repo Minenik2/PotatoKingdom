@@ -1705,8 +1705,7 @@
 		{"id":17,"name":"enemy2","filename":"img/017.png","srcFilename":"E:/potato kingdom/enemy2.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":18,"name":"player_jump","filename":"img/018.png","srcFilename":"E:/potato kingdom/player_jump.png","horzDivCount":5,"vertDivCount":1,			"folder": false},
 		{"id":19,"name":"hpBar","filename":"img/019.png","srcFilename":"I:/Games/myGames/potatokingdom/hpBar.png","horzDivCount":2,"vertDivCount":8,			"folder": false},
-		{"id":20,"name":"Player-falling","filename":"img/020.png","srcFilename":"E:/potato kingdom/Player-falling.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":21,"name":"Player-landing","filename":"img/021.png","srcFilename":"E:/potato kingdom/Player-landing.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":22,"name":"player_fallingandlanding","filename":"img/022.png","srcFilename":"E:/potato kingdom/player_fallingandlanding.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -3411,7 +3410,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -48, -1 ], [ 24, 0 ] ],
+	"coordList": [ [ -48, 0 ], [ 24, 0 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
