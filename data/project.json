@@ -2606,8 +2606,8 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -48, -48 ], [ 132, -120 ] ],
-	"endPointFactor": [ 1350, 2631 ],
+	"coordList": [ [ -48, -48 ], [ 153, -120 ] ],
+	"endPointFactor": [ 1350, 2520 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
