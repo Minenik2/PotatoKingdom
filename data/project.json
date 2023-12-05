@@ -1840,7 +1840,6 @@
 	],
 	"tilesetList": [
 		{"id":4,"name":"grass","tilesetType":0,"imageId":10,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":33,"vertTileCount":30,"wallSetting":[3, 1, 1, 1, 1, 5, 1, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15, 15, 15, 15, 15, 15, 15, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8, 8, 8, 8, 8, 8, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":3,"name":"tile001","tilesetType":0,"imageId":24,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":2,"vertTileCount":2,"wallSetting":[0, 0, 0, 0],"tileData":{},			"folder": false},
 		{"id":6,"name":"FirstTiles","tilesetType":0,"imageId":26,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":9,"vertTileCount":5,"wallSetting":[3, 1, 5, 0, 7, 0, 15, 0, 0, 2, 0, 4, 0, 7, 0, 0, 0, 0, 10, 8, 12, 0, 14, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],"tileData":{},			"folder": false}
 	],
 	"imageList": [
@@ -1852,8 +1851,8 @@
 {"id":19,"name":"player_hpBar","filename":"img/019.png","srcFilename":"I:/Games/myGames/potatokingdom/hpBar.png","horzDivCount":2,"vertDivCount":8,					"folder": false},
 {"id":27,"name":"player_weapons","filename":"img/027.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapons.png","horzDivCount":1,"vertDivCount":2,					"folder": false},
 {"id":28,"name":"player_weapon_attack","filename":"img/028.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapon_attack.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
-{"id":29,"name":"slash","filename":"img/029.png","srcFilename":"I:/Games/myGames/potatokingdom/slash.png","horzDivCount":4,"vertDivCount":2,					"folder": false},
-{"id":30,"name":"player_weapon_attack_updated","filename":"img/030.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapon_attack_updated.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
+{"id":30,"name":"player_weapon_attack_updated","filename":"img/030.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapon_attack_updated.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":29,"name":"player_slash_effect","filename":"img/029.png","srcFilename":"I:/Games/myGames/potatokingdom/slash.png","horzDivCount":4,"vertDivCount":2,					"folder": false}
 	]},
 		{"id":1,"name":"font6x10","filename":"img/001.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":2,"name":"font8x8","filename":"img/002.png","srcFilename":"","horzDivCount":1,"vertDivCount":1,			"folder": false},
@@ -1862,15 +1861,14 @@
 		{"id":5,"name":"potatowithanimation","filename":"img/005.png","srcFilename":"E:/potato kingdom/potatowithanimation.png","horzDivCount":6,"vertDivCount":6,			"folder": false},
 		{"id":6,"name":"potatowithanimation(1)","filename":"img/006.png","srcFilename":"E:/potato kingdom/potatowithanimation.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":10,"name":"Sprite-0001","filename":"img/010.png","srcFilename":"I:/Games/myGames/potatokingdom/Sprite-0001.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":11,"name":"tiles2","filename":"img/011.png","srcFilename":"E:/potato kingdom/tiles2.0.png","horzDivCount":16,"vertDivCount":16,			"folder": false},
+		{"id":11,"name":"simpleTiles","filename":"img/011.png","srcFilename":"E:/potato kingdom/tiles2.0.png","horzDivCount":16,"vertDivCount":16,			"folder": false},
 		{"id":23,"name":"Enemy",			"folder": true, 	"children": [
-{"id":22,"name":"SlowEasyEnemy1","filename":"img/022.png","srcFilename":"E:/potato kingdom/SlowEasyEnemy1.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":22,"name":"enemyOnion","filename":"img/022.png","srcFilename":"E:/potato kingdom/SlowEasyEnemy1.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":17,"name":"enemy2","filename":"img/017.png","srcFilename":"E:/potato kingdom/enemy2.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":16,"name":"enemy1","filename":"img/016.png","srcFilename":"E:/potato kingdom/enemy1.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]},
-		{"id":24,"name":"SlowEasyEnemy1(1)","filename":"img/024.png","srcFilename":"E:/potato kingdom/SlowEasyEnemy1.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
 		{"id":25,"name":"Tiles",			"folder": true, 	"children": [
-{"id":26,"name":"firstTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false}
+{"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false}
 	]}
 	],
 	"fontList": [
@@ -8088,100 +8086,6 @@
 	"gridMagnet": true,
 	"actionIconHide": true,
 	"memo": ""
-}
-,
-	"transitionFlow": {
-	"flowScreenList": [ {
-	"id": 1,
-	"scene": true,
-	"sceneMenuId": -1,
-	"x": 24,
-	"y": 24,
-	"width": 144,
-	"height": 48,
-	"shortcutList": [],
-	"a": -1,
-	"r": -1,
-	"g": -1,
-	"b": -1
-}, {
-	"id": 2,
-	"scene": true,
-	"sceneMenuId": 1,
-	"x": 216,
-	"y": 120,
-	"width": 144,
-	"height": 48,
-	"shortcutList": [],
-	"a": -1,
-	"r": -1,
-	"g": -1,
-	"b": -1
-}, {
-	"id": 3,
-	"scene": true,
-	"sceneMenuId": 2,
-	"x": 216,
-	"y": 216,
-	"width": 144,
-	"height": 48,
-	"shortcutList": [],
-	"a": -1,
-	"r": -1,
-	"g": -1,
-	"b": -1
-} ],
-	"flowLinkList": [ {
-	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
-	"linkType": 0,
-	"priority": 0,
-	"startPointGroup": 0,
-	"changeConditionType": 1,
-	"noInput": true,
-	"useInput": true,
-	"inputConditionList": [  ],
-	"sceneTerminated": false,
-	"timeElapsed": false,
-	"timeElapsed300": 0,
-	"switchVariableChanged": false,
-	"switchVariableConditionList": [  ],
-	"memo": "",
-	"preMoveEffect": 0,
-	"preMoveDuration300": 300,
-	"preMoveBgmChangeType": 0,
-	"preMoveBgmFadeout": false,
-	"preMoveBgmId": -1,
-	"preMoveBgmLoop": false,
-	"preMoveBgmChangeTiming": 0,
-	"preMovePlaySe": false,
-	"preMoveSeId": -1,
-	"postMoveEffect": 0,
-	"postMoveDuration300": 300,
-	"postMoveBgmChangeType": 2,
-	"postMoveBgmFadeout": false,
-	"postMoveBgmId": -1,
-	"postMoveBgmLoop": false,
-	"postMoveBgmChangeTiming": 0,
-	"postMovePlaySe": false,
-	"postMoveSeId": -1,
-	"postMoveChangeSwitchVariable": false,
-	"postMoveSwitchVariableAssignList": [  ],
-	"postMoveExecuteObjectAction": false,
-	"postMoveObjectActionList": [  ],
-	"coordList": [ [ 143, 71 ], [ 240, 120 ] ],
-	"endPointFactor": [ -1, -1 ],
-	"visible": true,
-	"num": 0,
-	"a": -1,
-	"r": -1,
-	"g": -1,
-	"b": -1,
-	"flowLinkIdList": [  ]
-} ],
-	"flowGroupList": [  ],
-"transitionLinkPaletteList": [],
-"transitionScreenPaletteList": []
 }
 ,
 	"animParticleImageList": [  ]
