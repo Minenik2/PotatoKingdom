@@ -573,7 +573,7 @@
 					"name": "theFirstEncounter",
 					"horzScreenCount": 2,
 					"vertScreenCount": 1,
-					"tileset": [ 4, 6 ],
+					"tileset": [ 4, 6, 2 ],
 					"memo": "",
 					"playBgmType": 1,
 					"bgmId": -1,
@@ -581,11 +581,11 @@
 					"bgColorR": 68,
 					"bgColorG": 130,
 					"bgColorB": 178,
-					"setBgImageFlag": false,
+					"setBgImageFlag": true,
 					"bgImageId": 9,
-					"bgImagePlacement": 0,
+					"bgImagePlacement": 1,
 					"bgImageMoveSpeed": 0,
-					"bgImageMoveDirection": 0,
+					"bgImageMoveDirection": 90,
 					"bgMoveSpeed": 100,
 					"bgMoveSpeedY": 100,
 					"layerMoveSpeed": [100, 100, 100, 100],
@@ -792,7 +792,14 @@
 						"name": "Layer 2"
 					},
 					"layer3": {
-						"tile": {												},
+						"tile": {						"35,0": { "tilesetId": 2, "x": 0, "y": 0  },
+						"35,1": { "tilesetId": 2, "x": 0, "y": 1  },
+						"36,0": { "tilesetId": 2, "x": 1, "y": 0  },
+						"36,1": { "tilesetId": 2, "x": 1, "y": 1  },
+						"37,0": { "tilesetId": 2, "x": 2, "y": 0  },
+						"37,1": { "tilesetId": 2, "x": 2, "y": 1  },
+						"38,0": { "tilesetId": 2, "x": 3, "y": 0  },
+						"38,1": { "tilesetId": 2, "x": 3, "y": 1  }						},
 						"name": "Layer 3"
 					},
 					"layer4": {
@@ -1739,9 +1746,244 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 12,
+			"name": "clouds",
+			"partType": 0,
+			"folder": true, 	"children": [
+				{
+					"id": 6,
+					"name": "cloud",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 5,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 38,
+	"y": 14.5,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				},
+				{
+					"id": 7,
+					"name": "cloud1",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 6,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 106,
+	"y": 4.5,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				},
+				{
+					"id": 8,
+					"name": "cloud2",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 7,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 141.5,
+	"y": 17,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				},
+				{
+					"id": 9,
+					"name": "cloud3",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 8,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 174.5,
+	"y": 1,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				},
+				{
+					"id": 10,
+					"name": "cloud4",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 9,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 219.5,
+	"y": 18.5,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				},
+				{
+					"id": 11,
+					"name": "cloud5",
+					"partType": 0,
+					"layerIndex": 3,
+					"locked": false,
+					"visible": true,
+					"priority": 10,
+					"dispPriority": 0,
+
+	"objectId": 7,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 246,
+	"y": 1,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [  ] },
+	"disappearActionCommandList": [  ]
+,
+					"folder": false
+				}
+	]
 		}
 					],
-					"objectSingleIdHash": { "6": 2, "1": 3, "3": 4 },
+					"objectSingleIdHash": { "6": 2, "3": 4, "1": 3 },
 			"folder": false
 				},
 				{
@@ -1757,9 +1999,9 @@
 					"bgColorR": 68,
 					"bgColorG": 130,
 					"bgColorB": 178,
-					"setBgImageFlag": false,
-					"bgImageId": -1,
-					"bgImagePlacement": 0,
+					"setBgImageFlag": true,
+					"bgImageId": 9,
+					"bgImagePlacement": 1,
 					"bgImageMoveSpeed": 0,
 					"bgImageMoveDirection": 0,
 					"bgMoveSpeed": 100,
@@ -2033,9 +2275,9 @@
 					"bgColorR": 68,
 					"bgColorG": 130,
 					"bgColorB": 178,
-					"setBgImageFlag": false,
-					"bgImageId": -1,
-					"bgImagePlacement": 0,
+					"setBgImageFlag": true,
+					"bgImageId": 9,
+					"bgImagePlacement": 1,
 					"bgImageMoveSpeed": 0,
 					"bgImageMoveDirection": 0,
 					"bgMoveSpeed": 100,
@@ -5410,6 +5652,9 @@
 						"1,18": { "tilesetId": 6, "x": 1, "y": 1  },
 						"1,19": { "tilesetId": 6, "x": 1, "y": 1  },
 						"1,20": { "tilesetId": 6, "x": 1, "y": 2  },
+						"1,28": { "tilesetId": 6, "x": 0, "y": 0  },
+						"1,29": { "tilesetId": 6, "x": 0, "y": 1  },
+						"1,30": { "tilesetId": 6, "x": 0, "y": 2  },
 						"1,35": { "tilesetId": 6, "x": 0, "y": 0  },
 						"1,36": { "tilesetId": 6, "x": 0, "y": 1  },
 						"1,37": { "tilesetId": 6, "x": 0, "y": 1  },
@@ -5452,6 +5697,10 @@
 						"2,18": { "tilesetId": 6, "x": 1, "y": 1  },
 						"2,19": { "tilesetId": 6, "x": 1, "y": 1  },
 						"2,20": { "tilesetId": 6, "x": 1, "y": 2  },
+						"2,28": { "tilesetId": 6, "x": 1, "y": 0  },
+						"2,29": { "tilesetId": 6, "x": 1, "y": 1  },
+						"2,30": { "tilesetId": 6, "x": 1, "y": 1  },
+						"2,31": { "tilesetId": 6, "x": 0, "y": 2  },
 						"2,35": { "tilesetId": 6, "x": 1, "y": 0  },
 						"2,36": { "tilesetId": 6, "x": 1, "y": 1  },
 						"2,37": { "tilesetId": 6, "x": 2, "y": 1  },
@@ -5494,6 +5743,13 @@
 						"3,18": { "tilesetId": 6, "x": 1, "y": 1  },
 						"3,19": { "tilesetId": 6, "x": 1, "y": 1  },
 						"3,20": { "tilesetId": 6, "x": 1, "y": 2  },
+						"3,28": { "tilesetId": 6, "x": 2, "y": 0  },
+						"3,29": { "tilesetId": 6, "x": 2, "y": 1  },
+						"3,30": { "tilesetId": 6, "x": 1, "y": 1  },
+						"3,31": { "tilesetId": 6, "x": 1, "y": 1  },
+						"3,32": { "tilesetId": 6, "x": 0, "y": 1  },
+						"3,33": { "tilesetId": 6, "x": 0, "y": 1  },
+						"3,34": { "tilesetId": 6, "x": 0, "y": 1  },
 						"3,35": { "tilesetId": 6, "x": 1, "y": 0  },
 						"3,36": { "tilesetId": 6, "x": 1, "y": 2  },
 						"3,42": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5531,6 +5787,11 @@
 						"4,18": { "tilesetId": 6, "x": 1, "y": 1  },
 						"4,19": { "tilesetId": 6, "x": 1, "y": 1  },
 						"4,20": { "tilesetId": 6, "x": 1, "y": 2  },
+						"4,30": { "tilesetId": 6, "x": 2, "y": 0  },
+						"4,31": { "tilesetId": 6, "x": 2, "y": 1  },
+						"4,32": { "tilesetId": 6, "x": 2, "y": 1  },
+						"4,33": { "tilesetId": 6, "x": 6, "y": 2  },
+						"4,34": { "tilesetId": 6, "x": 1, "y": 1  },
 						"4,35": { "tilesetId": 6, "x": 1, "y": 0  },
 						"4,36": { "tilesetId": 6, "x": 1, "y": 2  },
 						"4,42": { "tilesetId": 6, "x": 2, "y": 0  },
@@ -5567,6 +5828,8 @@
 						"5,18": { "tilesetId": 6, "x": 2, "y": 1  },
 						"5,19": { "tilesetId": 6, "x": 2, "y": 1  },
 						"5,20": { "tilesetId": 6, "x": 2, "y": 2  },
+						"5,33": { "tilesetId": 6, "x": 2, "y": 0  },
+						"5,34": { "tilesetId": 6, "x": 2, "y": 1  },
 						"5,35": { "tilesetId": 6, "x": 1, "y": 0  },
 						"5,36": { "tilesetId": 6, "x": 1, "y": 2  },
 						"5,44": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5596,6 +5859,9 @@
 						"6,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"6,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"6,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"6,25": { "tilesetId": 6, "x": 0, "y": 0  },
+						"6,26": { "tilesetId": 6, "x": 0, "y": 1  },
+						"6,27": { "tilesetId": 6, "x": 0, "y": 2  },
 						"6,35": { "tilesetId": 6, "x": 2, "y": 0  },
 						"6,36": { "tilesetId": 6, "x": 2, "y": 2  },
 						"6,40": { "tilesetId": 6, "x": 6, "y": 0  },
@@ -5627,6 +5893,12 @@
 						"7,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"7,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"7,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"7,22": { "tilesetId": 6, "x": 0, "y": 0  },
+						"7,23": { "tilesetId": 6, "x": 0, "y": 1  },
+						"7,24": { "tilesetId": 6, "x": 0, "y": 1  },
+						"7,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"7,26": { "tilesetId": 6, "x": 1, "y": 1  },
+						"7,27": { "tilesetId": 6, "x": 1, "y": 2  },
 						"7,44": { "tilesetId": 6, "x": 1, "y": 0  },
 						"7,45": { "tilesetId": 6, "x": 1, "y": 2  },
 						"7,54": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5654,6 +5926,12 @@
 						"8,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"8,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"8,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"8,22": { "tilesetId": 6, "x": 1, "y": 0  },
+						"8,23": { "tilesetId": 6, "x": 1, "y": 1  },
+						"8,24": { "tilesetId": 6, "x": 1, "y": 1  },
+						"8,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"8,26": { "tilesetId": 6, "x": 1, "y": 1  },
+						"8,27": { "tilesetId": 6, "x": 1, "y": 2  },
 						"8,39": { "tilesetId": 6, "x": 0, "y": 0  },
 						"8,40": { "tilesetId": 6, "x": 0, "y": 2  },
 						"8,44": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5683,6 +5961,15 @@
 						"9,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"9,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"9,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"9,19": { "tilesetId": 6, "x": 0, "y": 0  },
+						"9,20": { "tilesetId": 6, "x": 0, "y": 1  },
+						"9,21": { "tilesetId": 6, "x": 0, "y": 1  },
+						"9,22": { "tilesetId": 6, "x": 6, "y": 4  },
+						"9,23": { "tilesetId": 6, "x": 1, "y": 1  },
+						"9,24": { "tilesetId": 6, "x": 1, "y": 1  },
+						"9,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"9,26": { "tilesetId": 6, "x": 1, "y": 1  },
+						"9,27": { "tilesetId": 6, "x": 1, "y": 2  },
 						"9,34": { "tilesetId": 6, "x": 6, "y": 0  },
 						"9,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"9,40": { "tilesetId": 6, "x": 1, "y": 2  },
@@ -5715,6 +6002,17 @@
 						"10,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"10,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"10,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"10,17": { "tilesetId": 6, "x": 0, "y": 0  },
+						"10,18": { "tilesetId": 6, "x": 0, "y": 1  },
+						"10,19": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,20": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,21": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,22": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,23": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,24": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,26": { "tilesetId": 6, "x": 1, "y": 1  },
+						"10,27": { "tilesetId": 6, "x": 1, "y": 2  },
 						"10,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"10,40": { "tilesetId": 6, "x": 1, "y": 2  },
 						"10,44": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5746,6 +6044,18 @@
 						"11,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"11,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"11,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"11,16": { "tilesetId": 6, "x": 4, "y": 0  },
+						"11,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"11,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,19": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,20": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,21": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,22": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,23": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,24": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,26": { "tilesetId": 6, "x": 1, "y": 1  },
+						"11,27": { "tilesetId": 6, "x": 1, "y": 2  },
 						"11,36": { "tilesetId": 6, "x": 6, "y": 0  },
 						"11,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"11,40": { "tilesetId": 6, "x": 1, "y": 2  },
@@ -5778,6 +6088,19 @@
 						"12,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"12,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"12,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"12,17": { "tilesetId": 6, "x": 2, "y": 0  },
+						"12,18": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,19": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,20": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,21": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,22": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,23": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,24": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,25": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,26": { "tilesetId": 6, "x": 2, "y": 1  },
+						"12,27": { "tilesetId": 6, "x": 2, "y": 2  },
+						"12,31": { "tilesetId": 6, "x": 0, "y": 0  },
+						"12,32": { "tilesetId": 6, "x": 0, "y": 2  },
 						"12,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"12,40": { "tilesetId": 6, "x": 1, "y": 2  },
 						"12,44": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5809,6 +6132,8 @@
 						"13,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"13,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"13,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"13,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"13,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"13,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"13,40": { "tilesetId": 6, "x": 1, "y": 2  },
 						"13,44": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5840,6 +6165,11 @@
 						"14,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"14,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"14,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"14,17": { "tilesetId": 6, "x": 0, "y": 0  },
+						"14,18": { "tilesetId": 6, "x": 0, "y": 1  },
+						"14,19": { "tilesetId": 6, "x": 0, "y": 2  },
+						"14,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"14,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"14,37": { "tilesetId": 6, "x": 6, "y": 0  },
 						"14,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"14,40": { "tilesetId": 6, "x": 1, "y": 2  },
@@ -5872,6 +6202,14 @@
 						"15,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"15,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"15,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"15,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"15,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"15,19": { "tilesetId": 6, "x": 1, "y": 2  },
+						"15,24": { "tilesetId": 6, "x": 0, "y": 0  },
+						"15,25": { "tilesetId": 6, "x": 0, "y": 1  },
+						"15,26": { "tilesetId": 6, "x": 0, "y": 2  },
+						"15,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"15,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"15,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"15,40": { "tilesetId": 6, "x": 1, "y": 2  },
 						"15,49": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5901,6 +6239,14 @@
 						"16,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"16,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"16,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"16,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"16,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"16,19": { "tilesetId": 6, "x": 1, "y": 2  },
+						"16,24": { "tilesetId": 6, "x": 1, "y": 0  },
+						"16,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"16,26": { "tilesetId": 6, "x": 1, "y": 2  },
+						"16,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"16,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"16,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"16,40": { "tilesetId": 6, "x": 1, "y": 2  },
 						"16,49": { "tilesetId": 6, "x": 1, "y": 0  },
@@ -5930,6 +6276,14 @@
 						"17,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"17,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"17,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"17,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"17,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"17,19": { "tilesetId": 6, "x": 1, "y": 2  },
+						"17,24": { "tilesetId": 6, "x": 1, "y": 0  },
+						"17,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"17,26": { "tilesetId": 6, "x": 1, "y": 2  },
+						"17,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"17,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"17,36": { "tilesetId": 6, "x": 6, "y": 0  },
 						"17,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"17,40": { "tilesetId": 6, "x": 1, "y": 2  },
@@ -5962,6 +6316,14 @@
 						"18,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"18,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"18,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"18,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"18,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"18,19": { "tilesetId": 6, "x": 1, "y": 2  },
+						"18,24": { "tilesetId": 6, "x": 1, "y": 0  },
+						"18,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"18,26": { "tilesetId": 6, "x": 1, "y": 2  },
+						"18,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"18,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"18,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"18,40": { "tilesetId": 6, "x": 1, "y": 1  },
 						"18,41": { "tilesetId": 6, "x": 0, "y": 1  },
@@ -5998,6 +6360,18 @@
 						"19,8": { "tilesetId": 6, "x": 1, "y": 1  },
 						"19,9": { "tilesetId": 6, "x": 1, "y": 1  },
 						"19,10": { "tilesetId": 6, "x": 1, "y": 2  },
+						"19,17": { "tilesetId": 6, "x": 1, "y": 0  },
+						"19,18": { "tilesetId": 6, "x": 1, "y": 1  },
+						"19,19": { "tilesetId": 6, "x": 1, "y": 1  },
+						"19,20": { "tilesetId": 6, "x": 0, "y": 1  },
+						"19,21": { "tilesetId": 6, "x": 0, "y": 1  },
+						"19,22": { "tilesetId": 6, "x": 0, "y": 1  },
+						"19,23": { "tilesetId": 6, "x": 0, "y": 1  },
+						"19,24": { "tilesetId": 6, "x": 6, "y": 4  },
+						"19,25": { "tilesetId": 6, "x": 1, "y": 1  },
+						"19,26": { "tilesetId": 6, "x": 1, "y": 2  },
+						"19,31": { "tilesetId": 6, "x": 1, "y": 0  },
+						"19,32": { "tilesetId": 6, "x": 1, "y": 2  },
 						"19,39": { "tilesetId": 6, "x": 1, "y": 0  },
 						"19,40": { "tilesetId": 6, "x": 1, "y": 1  },
 						"19,41": { "tilesetId": 6, "x": 1, "y": 1  },
@@ -6072,9 +6446,876 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "enemyOninion_patrol",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 1,
+			"dispPriority": 0,
+
+	"objectId": 6,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 90.000000,
+	"x": 36,
+	"y": 432,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "1": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 5
+}
+} ], "2": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 37,
+	"variableAssignOperator": 2,
+	"variableAssignValueType": 0,
+	"assignValue": 180.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "5": [ {
+	"id": 2,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "enemyOninion_patrol1",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 2,
+			"dispPriority": 0,
+
+	"objectId": 6,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 90.000000,
+	"x": 156,
+	"y": 688,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "1": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 5
+}
+} ], "2": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 37,
+	"variableAssignOperator": 2,
+	"variableAssignValueType": 0,
+	"assignValue": 180.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "5": [ {
+	"id": 2,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "enemyOninion_patrol2",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 3,
+			"dispPriority": 0,
+
+	"objectId": 6,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 193,
+	"y": 848,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "1": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 5
+}
+} ], "2": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ], "2": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 37,
+	"variableAssignOperator": 2,
+	"variableAssignValueType": 0,
+	"assignValue": 180.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "5": [ {
+	"id": 2,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 					],
-					"objectSingleIdHash": {  },
+					"objectSingleIdHash": { "6": 2 },
 			"folder": false
 				},
 				{
@@ -6641,7 +7882,10 @@
 	],
 	"tilesetList": [
 		{"id":4,"name":"grass","tilesetType":0,"imageId":10,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":33,"vertTileCount":30,"wallSetting":[3, 1, 1, 1, 1, 5, 1, 1, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15, 15, 15, 15, 15, 15, 15, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8, 8, 8, 8, 8, 8, 8, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},			"folder": false},
-		{"id":6,"name":"FirstTiles","tilesetType":0,"imageId":26,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":9,"vertTileCount":5,"wallSetting":[3, 1, 5, 0, 7, 0, 15, 0, 0, 2, 0, 4, 0, 7, 0, 0, 0, 0, 10, 8, 12, 0, 14, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],"tileData":{},			"folder": false}
+		{"id":6,"name":"FirstTiles","tilesetType":0,"imageId":26,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":9,"vertTileCount":5,"wallSetting":[3, 1, 5, 0, 7, 0, 15, 0, 0, 2, 0, 4, 0, 7, 0, 0, 0, 0, 10, 8, 12, 0, 14, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],"tileData":{},			"folder": false},
+		{"id":1,"name":"backgroundTiles",			"folder": true, 	"children": [
+{"id":2,"name":"cloud","tilesetType":0,"imageId":8,"memo":"","pluginId":-1,"pluginParam":{"embeddedSetting":[],"valueJson":"[]"},"horzTileCount":4,"vertTileCount":2,"wallSetting":[0, 0, 0, 0, 0, 0, 0, 0],"tileData":{},					"folder": false}
+	]}
 	],
 	"imageList": [
 		{"id":21,"name":"Player",			"folder": true, 	"children": [
@@ -6670,6 +7914,10 @@
 	]},
 		{"id":25,"name":"Tiles",			"folder": true, 	"children": [
 {"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false}
+	]},
+		{"id":7,"name":"background",			"folder": true, 	"children": [
+{"id":8,"name":"cloud","filename":"img/008.png","srcFilename":"I:/Games/myGames/potatokingdom/cloud.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":9,"name":"backgroundtest","filename":"img/009.png","srcFilename":"I:/Games/myGames/potatokingdom/backgroundtest.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]}
 	],
 	"fontList": [
@@ -7230,7 +8478,7 @@
 	"takeOverMotion": false,
 	"jumpable": false,
 	"enableCustomizedJump": false,
-	"ignoreMoveInput": true,
+	"ignoreMoveInput": false,
 	"keepDirection": true,
 	"ignoreGravity": false,
 	"gravity": 100,
@@ -13734,6 +14982,740 @@
 					"priorityInPhysics": 0
 ,
 			"folder": false
+		},
+				{
+			"id": 7,
+			"name": "cloud",
+			"type": 0,
+			"group": 0,
+			"animationId": 5,
+			"operatable": false,
+			"priority": 0,
+			"initialActionId": 1,
+			"initialDisplayDirectionFlag": false,
+			"initialDisplayDirection": 90.000000,
+			"hitPlayerGroup": false,
+			"hitEnemyGroup": false,
+			"hitObjectGroupBit": 0,
+			"collideWithPlayerGroup": false,
+			"collideWithEnemyGroup": false,
+			"collideWithObjectGroupBit": 0,
+			"collideWithTile": false,
+			"collideWithTileGroupBit": 0,
+			"dispPriority": 0,
+			"actionList": [ {
+	"id": 1,
+	"name": "start",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": true,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 1,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": false,
+    "moveDistance": 0,
+    "reverse": false
+}
+
+} ],
+	"memo": "",
+	"x": -72,
+	"y": -24,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 2,
+	"name": "destroy",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": -1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [  ],
+	"memo": "",
+	"x": -72,
+	"y": 72,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+} ],
+			"actionLinkList": [ {
+	"id": 1,
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 13,
+	"condAnd": true,
+	"notFlag": false,
+	"cameraOutOfRange": {
+	"objectId": -2,
+	"distanceFlag": false,
+	"distance": 0
+}
+} ],
+	"memo": "",
+	"coordList": [ [ 12, 23 ], [ 12, 72 ] ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+} ],
+			"actionGroupList": [  ],
+			"memo": "",
+			"testplayOnly": false,
+			"appearCondition": 1,
+			"appearConditionTileCount": 0,
+			"reappearCondition": 1,
+			"reappearConditionTileCount": 0,
+			"hp": 1,
+			"maxHp": 1,
+			"minAttack": 1,
+			"maxAttack": 1,
+			"initialDamageRate": 100,
+			"damageVariationValue": 0,
+			"critical": true,
+			"criticalRatio": 200,
+			"criticalIncidence": 5,
+			"moveType": 0,
+			"normalAccelMove": false,
+			"tankAccelMove": false,
+			"carAccelMove": false,
+			"upMoveKeyId": -1,
+			"downMoveKeyId": -1,
+			"leftMoveKeyId": -1,
+			"rightMoveKeyId": -1,
+			"forwardMoveKeyId": -1,
+			"backwardMoveKeyId": -1,
+			"leftTurnKeyId": -1,
+			"rightTurnKeyId": -1,
+			"slipOnSlope": false,
+			"diagonalMoveWithPolar": false,
+			"moveAroundWithinDots": false,
+			"dotsToMoveAround": 0,
+			"horizontalMove": 1.000000,
+			"verticalMove": 1.000000,
+			"horizontalAccel": 1.000000,
+			"horizontalMaxMove": 1.000000,
+			"horizontalDecel": 1.000000,
+			"verticalAccel": 1.000000,
+			"verticalMaxMove": 1.000000,
+			"verticalDecel": 1.000000,
+			"forwardMove": 1.000000,
+			"backwardMove": 1.000000,
+			"forwardAccel": 1.000000,
+			"forwardMaxMove": 1.000000,
+			"forwardDecel": 1.000000,
+			"backwardAccel": 1.000000,
+			"backwardMaxMove": 1.000000,
+			"backwardDecel": 1.000000,
+			"leftTurn": 1.000000,
+			"rightTurn": 1.000000,
+			"jumpInitialSpeed": 1.000000,
+			"gravity": 1.000000,
+			"movableWhenJumping": true,
+			"movableWhenFalling": true,
+			"fallOnCollideWithWall": true,
+			"fallOnCollideWithHitbox": true,
+			"jumpInputOperationKeyId": -1,
+			"affectInputDuration300": 0,
+			"limitFalldownAmount": true,
+			"maxFalldownAmount": 16.000000,
+			"invincibleOnDamaged": true,
+			"invincibleDuration300": 300,
+			"winkWhenInvincible": true,
+			"winkInterval300": 300,
+			"afterimage": false,
+			"afterimageCount": 0,
+			"afterimageInterval": 0.000000,
+			"afterimageDuration300": 0,
+			"fillAfterimage": false,
+			"fillAfterimageA": 255,
+			"fillAfterimageR": 128,
+			"fillAfterimageG": 0,
+			"fillAfterimageB": 255,
+			"fadeoutAfterimage": false,
+			"fadeoutAfterimageStart300": 0,
+			"useAnimationAfterimage": false,
+			"afterimageAnimationId": -1,
+			"followType": 1,
+			"followPrecision": 100,
+			"followIntervalByTime300": 0,
+			"followIntervalByLocusLength": 0,
+			"childDamageType": 1,
+			"takeOverDamageRateToParent": false,
+			"unattackableToParent": true,
+			"takeoverDispDirection": true,
+			"takeoverAngle": true,
+			"takeoverScaling": true,
+			"takeoverIntensity": true,
+			"disappearWhenHp0": false,
+			"disappearWhenOutOfCamera": false,
+			"disappearCameraMarginTileCount": 2,
+			"fixedInCamera": false,
+			"pushedbackByObject": true,
+			"takeoverStatesAtSceneEnd": false,
+			"disappearSettingFlag": false,
+			"disappearSetting": {
+	"otherObjectDecrementHp": true,
+	"decrement": 0,
+	"targetObjectType": 1,
+	"targetObjectTypeByType": 0,
+	"targetObjectGroup": -1,
+	"targetObjectId": -3,
+	"damageRange": 0,
+	"cameraRangeAdjust": 0,
+	"objCommandList": [  ]
+},
+			"fireBulletSettingFlag": false,
+			"additionalDisplayList": [  ],
+			"fireBulletSettingList": [  ],
+			"effectSettingFlag": false,
+			"effectSettingList": [  ],
+			"connectSettingFlag": false,
+			"connectSettingList": [  ],
+			"moveDispDirectionSettingFlag": false,
+			"moveDispDirectionSetting": {
+	"upOperationKeyId": -1,
+	"downOperationKeyId": -1,
+	"leftOperationKeyId": -1,
+	"rightOperationKeyId": -1,
+	"actionInfoList": [  ]
+},
+			"physicsSettingFlag": false,
+			"physicsSetting": {
+	"affectPhysics": false,
+	"physicsAffected": false,
+	"followConnectedPhysics": false,
+	"templateId": -1,
+	"density": 1000,
+	"mass": 1,
+	"friction": 1,
+	"repulsion": 0.5,
+	"nonCollisionGroup": [  ]
+},
+			"viewportLightSettingFlag": false,
+			"viewportLightSettingList": [  ],
+			"commonActionSettingFlag": false,
+			"commonActionSettingList": [  ],
+			"commonActionGroup": {
+	"id": 99999999,
+	"name": "Common Actions",
+	"a": 255,
+	"r": 255,
+	"g": 255,
+	"b": 0,
+	"actionIdList": [  ],
+	"x": 0,
+	"y": 0,
+	"width": 64,
+	"height": 64,
+	"collapsed": false
+},
+			"aroundCharacterViewSettingFlag": false,
+			"aroundCharacterViewSetting": {
+	"tileOn": true,
+	"objectOn": true,
+	"viewType": 0,
+	"multiplyFill": true,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"transparency": 0,
+	"width": 0,
+	"height": 0
+},
+			"invincibleSettingFlag": false,
+			"invincibleSettingList": [  ],
+			"damagedSettingFlag": false,
+			"damagedSettingList": [  ],
+			"moveRestrictionSettingFlag": false,
+			"moveRestrictionSettingList": [  ],
+					"variableList": [
+					{
+    "folder": false,
+    "id": 1,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Object ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 2,
+    "initialValue": 0,
+    "memo": "",
+    "name": "HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 3,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 4,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Min Attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 5,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 15,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Critical Boost (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 16,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Critical Rate (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 6,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Rate",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 36,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Damage Spread",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 7,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Attack Attribute",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 8,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Area Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 9,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 10,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 37,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Direction",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 32,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale X (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 33,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale Y (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 11,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 12,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 23,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 24,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 25,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 26,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 27,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 28,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 29,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 30,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 35,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Initial Jump Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 13,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Player Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 22,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Controller ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 14,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Amount",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 17,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Time of Invincibility",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 18,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Animation frame",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 19,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 21,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Single Unit Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 20,
+    "initialValue": 0,
+    "memo": "",
+    "name": "No. of Same Instances Placed in Scene",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 31,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Duration to take over accelerated speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 34,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Priority",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 38,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Parent Object Instance ID",
+    "toBeSaved": true
+}
+
+					],
+					"switchList": [
+							{
+			"id": 1,
+			"name": "Invincibility",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "Free Movement",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "Lock Target",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "Portal Touched",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 5,
+			"name": "Critical Received",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "Disable",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 7,
+			"name": "SlipOnSlope",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 8,
+			"name": "AffectOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 9,
+			"name": "AffectedByOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 10,
+			"name": "FollowConnectedPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 11,
+			"name": "Display Afterimage",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		}
+					],
+			"databaseSettingFlag": false,
+			"databaseId": 0,
+					"physicsPartList": [
+					
+					],
+					"priorityInPhysics": 0
+,
+			"folder": false
 		}
 	],
 	"animationList": [
@@ -13783,6 +15765,18 @@
 			"originY": 0,
 			"resourceInfoList": [ { "id": 1, "image": true, "imageId": 27, "hdivCount": 1, "vdivCount": 2 }, { "id": 2, "image": true, "imageId": 29, "hdivCount": 4, "vdivCount": 2 } ],
 			"motionList": [ { "id": 1, "name": "normal", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "left", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 }, { "id": 2, "name": "left(1)", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 } ] }, { "id": 2, "name": "slash", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "right", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 3, "y": 4, "width": 25, "height": 25, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 25, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 2, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 }, { "id": 3, "frameCount300": 15, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 4, "frameCount300": 10, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 3, "imageTileY": 0 }, { "id": 5, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 32 }, { "id": 2, "name": "left", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [  ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 4, "y": 4, "width": 25, "height": 25, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 25, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 32, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 2, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 32, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 }, { "id": 3, "frameCount300": 15, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 32, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 4, "frameCount300": 10, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 32, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 3, "imageTileY": 0 }, { "id": 5, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 32, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 32 } ] } ],
+			"memo": "",
+			"folder": false
+		},
+				{
+			"id": 5,
+			"name": "background",
+			"type": 0,
+			"originType": 0,
+			"originX": 0,
+			"originY": 0,
+			"resourceInfoList": [ { "id": 1, "image": true, "imageId": 8, "hdivCount": 1, "vdivCount": 1 } ],
+			"motionList": [ { "id": 1, "name": "cloud", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "right", "directionBit": 0, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 0, "y": 0, "width": 57, "height": 25, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 0, "y": 0, "width": 57, "height": 25, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 0, "centerY": 0, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 57, "imageHeight": 25 } ] } ],
 			"memo": "",
 			"folder": false
 		}
