@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 0,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 16,
 	"tileHeight": 16,
 	"screenWidth": 320,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":4,
@@ -10583,6 +10581,10 @@
 {"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false}
 	]},
 		{"id":7,"name":"background",			"folder": true, 	"children": [
+{"id":33,"name":"bushgrass","filename":"img/033.png","srcFilename":"E:/potato kingdom/bushgrass.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":32,"name":"farForestTrees","filename":"img/032.png","srcFilename":"E:/potato kingdom/farForestTrees.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":31,"name":"forestTrees","filename":"img/031.png","srcFilename":"E:/potato kingdom/forestTrees.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":24,"name":"forestSky","filename":"img/024.png","srcFilename":"E:/potato kingdom/forestSky.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":8,"name":"cloud","filename":"img/008.png","srcFilename":"I:/Games/myGames/potatokingdom/cloud.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":9,"name":"backgroundtest","filename":"img/009.png","srcFilename":"I:/Games/myGames/potatokingdom/backgroundtest.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":15,"name":"clouds2","filename":"img/015.png","srcFilename":"I:/Games/myGames/potatokingdom/clouds2.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
@@ -10867,7 +10869,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
