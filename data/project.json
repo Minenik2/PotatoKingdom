@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 0,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 16,
 	"tileHeight": 16,
 	"screenWidth": 320,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":4,
@@ -3691,7 +3689,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "3": 4, "1": 3, "6": 2 },
+					"objectSingleIdHash": { "6": 2, "3": 4, "1": 3 },
 			"folder": false
 				},
 				{
@@ -8395,7 +8393,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "3": 2, "6": 3 },
+					"objectSingleIdHash": { "6": 3, "3": 2 },
 			"folder": false
 				},
 				{
@@ -14320,6 +14318,109 @@
 					],
 					"objectSingleIdHash": { "6": 2 },
 			"folder": false
+				},
+				{
+					"id": 8,
+					"name": "Milad scene",
+					"horzScreenCount": 1,
+					"vertScreenCount": 1,
+					"tileset": [ 6 ],
+					"memo": "",
+					"playBgmType": 1,
+					"bgmId": -1,
+					"loopBgmFlag": true,
+					"bgColorR": 0,
+					"bgColorG": 0,
+					"bgColorB": 0,
+					"setBgImageFlag": false,
+					"bgImageId": -1,
+					"bgImagePlacement": 0,
+					"bgImageMoveSpeed": 0,
+					"bgImageMoveDirection": 0,
+					"bgMoveSpeed": 100,
+					"bgMoveSpeedY": 100,
+					"layerMoveSpeed": [100, 100, 100, 100],
+					"layerMoveSpeedY": [100, 100, 100, 100],
+					"gravityAccel": 9.8,
+					"gravityDirection": 180,
+					"airResistance": 1,
+					"screenAutoScroll": false,
+					"screenAutoScrollSpeed": 0,
+					"screenAutoScrollDirection": 270,
+					"screenAutoScrollSwitchObjectId": -1,
+					"screenAutoScrollSwitchQualifierId": -1,
+					"screenAutoScrollSwitchId": -1,
+					"limitAreaX": 0,
+					"limitAreaY": 0,
+					"limitAreaWidth": 320,
+					"limitAreaHeight": 180,
+					"disableLimitArea": false,
+					"limitCameraX": 0,
+					"limitCameraY": 0,
+					"limitCameraWidth": 320,
+					"limitCameraHeight": 180,
+					"disableLimitCamera": false,
+					"initialMenuLayerId": -1,
+					"preloadMenuLayerIdList": [],
+					"sceneFilterEffectList": [
+					
+					],
+					"layer1": {
+						"tile": {						"0,4": { "tilesetId": 6, "x": 0, "y": 0  },
+						"1,4": { "tilesetId": 6, "x": 1, "y": 0  },
+						"2,4": { "tilesetId": 6, "x": 1, "y": 0  },
+						"3,4": { "tilesetId": 6, "x": 1, "y": 0  },
+						"4,4": { "tilesetId": 6, "x": 1, "y": 0  },
+						"5,4": { "tilesetId": 6, "x": 2, "y": 0  }						},
+						"name": "Layer 1"
+					},
+					"layer2": {
+						"tile": {												},
+						"name": "Layer 2"
+					},
+					"layer3": {
+						"tile": {												},
+						"name": "Layer 3"
+					},
+					"layer4": {
+						"tile": {												},
+						"name": "Layer 4"
+					},
+					"scenePartList": [
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 320,
+	"height": 180,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
+		}
+					],
+					"objectSingleIdHash": {  },
+			"folder": false
 				}
 	],
 	"tilesetList": [
@@ -14667,7 +14768,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
