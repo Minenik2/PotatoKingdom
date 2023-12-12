@@ -1,11 +1,10 @@
 {
-	"version": "1.0.6",
+	"version": "1.0.5",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 0,
 	"playerCount": 1,
 	"mode30Fps": false,
-	"fix60FpsMode": false,
 	"tileWidth": 16,
 	"tileHeight": 16,
 	"screenWidth": 320,
@@ -21,8 +20,7 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxSupportForSingleJoyCon": true,
-	"nxPlayerVersion": "1.0.6",
+	"nxPlayerVersion": "1.0.5",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":4,
@@ -3691,7 +3689,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "3": 4, "1": 3, "6": 2 },
+					"objectSingleIdHash": { "6": 2, "1": 3, "3": 4 },
 			"folder": false
 				},
 				{
@@ -8395,7 +8393,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "3": 2, "6": 3 },
+					"objectSingleIdHash": { "6": 3, "3": 2 },
 			"folder": false
 				},
 				{
@@ -14351,7 +14349,8 @@
 {"id":27,"name":"player_weapons","filename":"img/027.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapons.png","horzDivCount":1,"vertDivCount":2,					"folder": false},
 {"id":28,"name":"player_weapon_attack","filename":"img/028.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapon_attack.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":30,"name":"player_weapon_attack_updated","filename":"img/030.png","srcFilename":"I:/Games/myGames/potatokingdom/player_weapon_attack_updated.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
-{"id":29,"name":"player_slash_effect","filename":"img/029.png","srcFilename":"I:/Games/myGames/potatokingdom/slash.png","horzDivCount":4,"vertDivCount":2,					"folder": false}
+{"id":29,"name":"player_slash_effect","filename":"img/029.png","srcFilename":"I:/Games/myGames/potatokingdom/slash.png","horzDivCount":4,"vertDivCount":2,					"folder": false},
+{"id":40,"name":"playerDamage","filename":"img/040.png","srcFilename":"E:/potato kingdom/playerDamage.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]},
 		{"id":23,"name":"Enemy",			"folder": true, 	"children": [
 {"id":22,"name":"enemyOnion","filename":"img/022.png","srcFilename":"E:/potato kingdom/SlowEasyEnemy1.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
@@ -14666,7 +14665,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Initialize Resources",
+			"name": "Reset",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -23410,12 +23409,12 @@
 					"rowList":[ "maxJumpCount", "currentJumpCount"],
 					"databaseValueList": [{
 						"column": 0, 
-						"row": 1, 
-						"val": "0"
-}, {
-						"column": 0, 
 						"row": 0, 
 						"val": "1"
+}, {
+						"column": 0, 
+						"row": 1, 
+						"val": "0"
 }]
 ,
 			"folder": false				}
