@@ -16,6 +16,11 @@ Also, if you guys are fine with the backstory playing at the start, I think it w
 I think this would be a great addition! Let me know if this is too much work or if you guys like the idea too 😀 
 
 
+Extended story
+Long ago, on a faraway continent, the vegetables lived together in harmony. However, one day the great ambitions of the Pumpkin King would put an end to the current status quo. Marching with his overwhelming army, the pumpkins destroyed the vegetable kingdoms in their path and took countless vegetables captive. In the end, only the Potato Kingdom remained to resist the Pumpkin King’s evil ambitions. The potatoes fought back valiantly, but it was only a matter of time before they too would succumb to the pumpkins… All hope was not lost, however, as the Potato King had received a prophecy: 'Thou who fight evil, as the vegetables' last hope, I shall grant you words of wisdom. Your son is the key; he alone can defeat the Pumpkin King.' After hearing these words, the King, with a heavy heart, sent his son, the Potato Prince, to face the evil. Sword in hand, his kingdom behind him, and the enemy in front, he became the hero of the vegetable continent. Sounds cool, doesn’t it? The Potato Prince took a step forward, and then another...
+
+
+
 ## ACT 1
 
 ## ACT 2
