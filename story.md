@@ -31,7 +31,7 @@ Big Hand Carro: he always wanted to be a farmer, lives a simple life at the farm
 
 Barbarian Clax, for reasons unkown, a whole ass temple was made to worship clax, he possesed a big weapon capable of piercing true even the greenest of stones. He is well known to be the only man standing from a battlefield made houndred of years ago, the war between barbarian vegetables and the onions. He is the grandfather of big hand carro, which explains why carro has such big hands in his bloodline. Because barbarian clax has such big hands the player can jump to one of his statues leading to his big weapon. 
 
-# Dialogue
+## Dialogue
 
 Once the player enters the plains he will see carro being surrounded by onion monsters.
 Carro: "Help"
