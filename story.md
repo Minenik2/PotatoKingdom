@@ -20,25 +20,41 @@ I think this would be a great addition! Let me know if this is too much work or 
 Story v0.1.1 -
 Long ago, on a faraway continent, the vegetables lived together in harmony. However, one day the great ambitions of the Pumpkin King would put an end to the current status quo. Marching with his overwhelming army, the pumpkins destroyed the vegetable kingdoms in their path and took countless vegetables captive. In the end, only the Potato Kingdom remained to resist the Pumpkin King’s evil ambitions. The potatoes fought back valiantly, but it was only a matter of time before they too would succumb to the pumpkins… All hope was not lost, however, as the Potato King had received a prophecy: 'Thou who fight evil, as the vegetables' last hope, I shall grant you words of wisdom. Your son is the key; he alone can defeat the Pumpkin King.' After hearing these words, the King, with a heavy heart, sent his son, the Potato Prince, to face the evil. Sword in hand, his kingdom behind him, and the enemy in front, he became the hero of the vegetable continent. Sounds cool, doesn’t it? The Potato Prince took a step forward, and then another...
 
-## ACT 1 / Axe and npcs
+## ACT 1 / Axe, Carro, Tim
 After traversing through the forest, you meet Big Hand Carro, a carrot that needs your help. (under work)
 ## ACT 2 / Double jump and npc
 
 ## ACT 3 / Ranged weapon, npc, boss
 
 # Lore
-Big Hand Carro: he always wanted to be a farmer, lives a simple life at the farm 
+Big Hand Carro: Carro is a peaceful man that has always wanted to be a farmer. He lives in a humble cabin at the outskirts of Claxe Village, tending to his small farm. Carro is a pacifist, and is known to donate most of his harvests to the village, keeping only what he needs to feed himself. Carro's large hands are inherited from his ancestors, a testament to the great fighters they used to be, all of whom wielded a certain Great Axe that had been passed down through generations. Carro, being a pacifist, had no interest in the axe arts nor the violent ways of his ancestors. And now that his home was being invaded, Carro could do nothing but flee and hope for a miracle. Although Carro could no longer carry the Great Axe, perhaps someone else could?  
 
-Barbarian Clax, for reasons unkown, a whole ass temple was made to worship clax, he possesed a big weapon capable of smashing true even the greenest of stones. He is well known to be the only man standing from a battlefield made houndred of years ago, the war between barbarian vegetables and the onions. He is the grandfather of big hand carro, which explains why carro has such big hands in his bloodline. Because barbarian clax has such big hands the player can jump to one of his statues leading to his big weapon. 
+Corny Tim: Tim is one of the villagers from Claxe Village. When the village got raided, Corny Tim was separated from his family during the chaos. With alle the village's exits being blocked off, Tim decided to hide, and hide he did. Corny Tim is hiding in a cornfield.. pretending to be one with the corn. 
+
+Shroom Shroom: bro just chill like that fr 
+
+Hot Chili Dude: bro just hot like that fr
+
+Barbarian Claxe: For reasons unkown, a wholeass temple was made to worship clax, he possesed a big weapon capable of smashing through even the greenest of stones. He is well known to be the only man standing from a battlefield made houndred of years ago. From the war between barbarian vegetables and the onions. He is the great great grandfather of big hand carro, which explains why carro has such big hands in his bloodline. Because barbarian clax has such big hands the player can jump to one of his statues leading to his big weapon. 
 
 ## Dialogue
 
-Once the player enters the plains he will see carro being surrounded by onion monsters.
-Carro: "Help"
+Once the player enters the plains he will see Carro being surrounded by onion monsters.
+Carro: "HELP!!" 
+The player walks towards the scream for help, and sees an onion monster chewing on Carro's hair (fronds).
 
-When the player saves carro he will say
-"thank you for your help"
-"i have no more lines of dialuge to say to u"
+When the player saves Carro he will say, while fixing up his hair:  
+"Thank you! Thank you for saving me!"  
+(after his har is fixed)  
+"Who are you anyway? Everyone is trying to flee the chaos, yet you're walking towards it!"  
+
+Potato Prince (proud/smug):  
+"I'm going to stop the Pumpkin King"  
+
+Carro:  
+"Alone?! 
+
+"i have no more lines of dialuge to say to u hur hur hur"  
 
 Dialogue when player picks up the big weapon: "heavy, massive weapon capable of destroying any obstacle that can come your way"
 
