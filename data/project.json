@@ -33853,7 +33853,9 @@
 {"id":14,"name":"onionEnemyMovement","filename":"img/014.png","srcFilename":"E:/potato kingdom/onionEnemyMovement.png","horzDivCount":4,"vertDivCount":3,					"folder": false}
 	]},
 		{"id":25,"name":"Tiles",			"folder": true, 	"children": [
-{"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false}
+{"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false},
+{"id":41,"name":"tilesettemplate","filename":"img/041.png","srcFilename":"I:/Games/myGames/potatokingdom/tilesettemplate.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
+{"id":43,"name":"templenew","filename":"img/043.png","srcFilename":"I:/Games/myGames/potatokingdom/templenew.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]},
 		{"id":7,"name":"background",			"folder": true, 	"children": [
 {"id":33,"name":"bushgrass","filename":"img/033.png","srcFilename":"E:/potato kingdom/bushgrass.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
@@ -33880,9 +33882,7 @@
 {"id":6,"name":"potatowithanimation(1)","filename":"img/006.png","srcFilename":"E:/potato kingdom/potatowithanimation.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":11,"name":"simpleTiles","filename":"img/011.png","srcFilename":"E:/potato kingdom/tiles2.0.png","horzDivCount":16,"vertDivCount":16,					"folder": false},
 {"id":10,"name":"Sprite-0001","filename":"img/010.png","srcFilename":"I:/Games/myGames/potatokingdom/Sprite-0001.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
-	]},
-		{"id":41,"name":"tilesettemplate","filename":"img/041.png","srcFilename":"I:/Games/myGames/potatokingdom/tilesettemplate.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":43,"name":"templenew","filename":"img/043.png","srcFilename":"I:/Games/myGames/potatokingdom/templenew.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+	]}
 	],
 	"fontList": [
 				{
