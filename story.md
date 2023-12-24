@@ -30,7 +30,7 @@ Long ago, on a faraway continent, the vegetables lived together in harmony. Howe
 Big Hand Carro: Carro is a peaceful man who has always wanted to be a farmer. He lives in a humble cabin at the outskirts of Claxe Village, tending to his small farm. Carro is a pacifist, and is known to donate most of his harvests to the village, keeping only what he needs to feed himself. Carro's large hands are inherited from his ancestors, a testament to the great fighters they used to be, all of whom wielded a certain Great Axe that had been passed down through generations. Carro, being a pacifist, had no interest in the axe arts nor the violent ways of his ancestors. Now, with his home being invaded, Carro could only flee and hope for a miracle. Although Carro could no longer carry the Great Axe, perhaps there was someone else who could.
 ### Traits: Peaceful and Pacifist, Generous, Humble and Simple, Independent, Respectful, Hopeful  
 
-Corny Tim: Tim is one of the villagers from Claxe Village. When the village was raided, Corny Tim was separated from his family during the chaos. With all the village's exits being blocked off, Tim decided to hide—and that's exactly what he did. Corny Tim is hiding in a cornfield, pretending to become one with the corn.  
+Corny Tim: Tim is one of the villagers from Claxe Village. When the village was raided, Corny Tim was separated from his family during the chaos. With all the village's exits being blocked off, Tim decided to hide—and that's exactly what he did. Corny Tim is hiding in a cornfield, pretending to become one with the corn.
 ### Traits: Child, Playful, Energetic, Kinda dumb but we love him  
 
 Shroom Shroom: bro just chill like that fr 
