@@ -411,7 +411,7 @@
 	"flowLinkIdList": [  ]
 }, {
 	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 13, -1] ],
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"startPointGroup": 0,
@@ -447,7 +447,7 @@
 	"postMoveSwitchVariableAssignList": [  ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ -37, 71 ], [ 685, 576 ] ],
+	"coordList": [ [ 0, 48 ], [ 96, 48 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -723,7 +723,7 @@
 							"tileset": [ 4, 6, 2, 3, 5, 7, 8, 9, 10, 11, 12, 14, 15 ],
 							"memo": "",
 							"playBgmType": 1,
-							"bgmId": -1,
+							"bgmId": 2,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
 							"bgColorG": 130,
@@ -3838,7 +3838,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "3": 4, "1": 3, "6": 2 },
+							"objectSingleIdHash": { "3": 4, "6": 2, "1": 3 },
 					"folder": false
 						},
 				{
@@ -3848,7 +3848,7 @@
 							"vertScreenCount": 1,
 							"tileset": [ 4, 6, 3, 10, 11, 12, 14 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
@@ -6008,8 +6008,8 @@
 							"vertScreenCount": 3,
 							"tileset": [ 4, 6, 3, 10, 11, 12, 15 ],
 							"memo": "",
-							"playBgmType": 1,
-							"bgmId": -1,
+							"playBgmType": 2,
+							"bgmId": 1,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
 							"bgColorG": 130,
@@ -9701,8 +9701,8 @@
 							"tileset": [ 6 ],
 							"memo": "",
 							"playBgmType": 1,
-							"bgmId": -1,
-							"loopBgmFlag": true,
+							"bgmId": 3,
+							"loopBgmFlag": false,
 							"bgColorR": 0,
 							"bgColorG": 0,
 							"bgColorB": 0,
@@ -10880,7 +10880,7 @@
 							"vertScreenCount": 3,
 							"tileset": [ 6, 3 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
@@ -10927,8 +10927,6 @@
 	"defocus": 100,
 	"chromaticAberration": 100,
 	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 0,
 	"imageId": -1,
 	"imageTransparency": 0,
 	"imagePlacement": 0,
@@ -12974,7 +12972,7 @@
 							"vertScreenCount": 4,
 							"tileset": [ 6 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
@@ -14483,7 +14481,7 @@
 							"vertScreenCount": 6,
 							"tileset": [ 6, 4 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 68,
@@ -16248,7 +16246,7 @@
 							"vertScreenCount": 4,
 							"tileset": [ 6, 3 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -18088,37 +18086,6 @@
 							},
 							"scenePartList": [
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 0,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 320,
-	"height": 180,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 2,
 			"name": "Player",
 			"partType": 0,
@@ -18306,6 +18273,37 @@
 	"disappearActionCommandList": [  ]
 ,
 			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 320,
+	"height": 180,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
+,
+			"folder": false
 		}
 							],
 							"objectSingleIdHash": { "1": 2 },
@@ -18318,7 +18316,7 @@
 							"vertScreenCount": 4,
 							"tileset": [ 6 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -18564,7 +18562,7 @@
 							"vertScreenCount": 8,
 							"tileset": [ 6, 15, 16, 17 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -26977,7 +26975,7 @@
 							"vertScreenCount": 5,
 							"tileset": [ 6, 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -29556,7 +29554,7 @@
 							"vertScreenCount": 5,
 							"tileset": [ 6, 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -30354,7 +30352,7 @@
 							"vertScreenCount": 1,
 							"tileset": [ 6, 4, 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -30915,7 +30913,7 @@
 							"vertScreenCount": 3,
 							"tileset": [ 6, 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -32398,198 +32396,9 @@
 }
 ,
 			"folder": false
-		},
-							{
-			"id": 2,
-			"name": "Player",
-			"partType": 0,
-			"layerIndex": 0,
-			"locked": false,
-			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
-
-	"objectId": 1,
-	"initialActionId": -1,
-	"initialDisplayDirectionFlag": false,
-	"initialDisplayDirection": 90.000000,
-	"x": 1476,
-	"y": 298,
-	"scalingX": 100,
-	"scalingY": 100,
-	"rotation": 0,
-	"courseScenePartId": -1,
-	"courseStartPointId": -1,
-	"commonActionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": true,
-    "moveDistance": 48,
-    "reverse": true
-}
-
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 120,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": -2,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ], "2": [ {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 90,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 9,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"bulletFire": {
-	"bulletId": 1,
-	"connectId": 4
-}
-}, {
-	"id": 1,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": 1,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ] },
-	"actionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "2": [  ], "3": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "4": [  ], "5": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "7": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ] },
-	"disappearActionCommandList": [  ]
-,
-			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "1": 2 },
+							"objectSingleIdHash": {  },
 					"folder": false
 						},
 				{
@@ -32599,7 +32408,7 @@
 							"vertScreenCount": 3,
 							"tileset": [ 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -33182,7 +32991,7 @@
 							"vertScreenCount": 1,
 							"tileset": [ 16 ],
 							"memo": "",
-							"playBgmType": 1,
+							"playBgmType": 2,
 							"bgmId": -1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
@@ -33961,7 +33770,42 @@
 		
 	],
 	"bgmList": [
-		
+				{
+			"id": 1,
+			"name": "sadpotato96",
+			"filename": "audio/bgm001.ogg",
+			"srcFilename": "D:/Software/famistudio/mesongs/sadpotato96.ogg",
+			"volume": 15,
+			"pan": 0,
+			"pitch": 0,
+			"loop": false,
+			"srcLoop": false,
+			"folder": false
+		},
+				{
+			"id": 2,
+			"name": "potatokingdomthebeginning96",
+			"filename": "audio/bgm002.ogg",
+			"srcFilename": "D:/Software/famistudio/mesongs/potatokingdomthebeginning96.ogg",
+			"volume": 15,
+			"pan": 0,
+			"pitch": 0,
+			"loop": false,
+			"srcLoop": false,
+			"folder": false
+		},
+				{
+			"id": 3,
+			"name": "sussy96",
+			"filename": "audio/bgm003.ogg",
+			"srcFilename": "D:/Software/famistudio/mesongs/sussy96.ogg",
+			"volume": 15,
+			"pan": 0,
+			"pitch": 0,
+			"loop": false,
+			"srcLoop": false,
+			"folder": false
+		}
 	],
 	"seList": [
 		
@@ -42950,7 +42794,7 @@
 	"postMoveEffect": 0,
 	"postMoveDuration300": 3,
 	"postMoveBgmChangeType": 2,
-	"postMoveBgmFadeout": false,
+	"postMoveBgmFadeout": true,
 	"postMoveBgmId": -1,
 	"postMoveBgmLoop": false,
 	"postMoveBgmChangeTiming": 0,
@@ -42988,7 +42832,7 @@
 	"postMoveEffect": 0,
 	"postMoveDuration300": 3,
 	"postMoveBgmChangeType": 2,
-	"postMoveBgmFadeout": false,
+	"postMoveBgmFadeout": true,
 	"postMoveBgmId": -1,
 	"postMoveBgmLoop": false,
 	"postMoveBgmChangeTiming": 0,
