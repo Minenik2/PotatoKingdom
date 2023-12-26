@@ -463,7 +463,7 @@
 	"flowLinkIdList": [  ]
 }, {
 	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 9, -1] ],
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"startPointGroup": 0,
@@ -499,7 +499,7 @@
 	"postMoveSwitchVariableAssignList": [  ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ 0, 70 ], [ 864, 337 ] ],
+	"coordList": [ [ 0, 48 ], [ 96, 48 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -27192,223 +27192,13 @@
 							},
 							"scenePartList": [
 							{
-			"id": 3,
-			"name": "Player1",
-			"partType": 0,
-			"layerIndex": 0,
-			"locked": false,
-			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
-
-	"objectId": 1,
-	"initialActionId": -1,
-	"initialDisplayDirectionFlag": false,
-	"initialDisplayDirection": 90.000000,
-	"x": 126,
-	"y": 273,
-	"scalingX": 100,
-	"scalingY": 100,
-	"rotation": 0,
-	"courseScenePartId": -1,
-	"courseStartPointId": -1,
-	"commonActionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": true,
-    "moveDistance": 48,
-    "reverse": true
-}
-
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 120,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": -2,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ], "2": [ {
-	"id": 4,
-	"commandType": 25,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"soundPlay": {
-	"soundType": 0,
-	"seId": 2,
-	"voiceId": -1,
-	"bgmId": -1,
-	"loop": false,
-	"fadein": false,
-	"duration300": 300,
-	"specifyAudioPosition": false,
-	"audioPositionVariableObjectId": -1,
-	"audioPositionVariableQualifierId": -1,
-	"audioPositionVariableId": -1,
-	"volume": 100,
-	"pan": 0,
-	"pitch": 0
-}
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 90,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 9,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"bulletFire": {
-	"bulletId": 1,
-	"connectId": 4
-}
-}, {
-	"id": 1,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": 1,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ] },
-	"actionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "2": [  ], "3": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "4": [  ], "5": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "7": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ] },
-	"disappearActionCommandList": [  ]
-,
-			"folder": false
-		},
-							{
 			"id": 2,
 			"name": "enemyOninion_patrol",
 			"partType": 0,
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -27697,7 +27487,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -27986,7 +27776,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -28275,7 +28065,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 5,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -28564,7 +28354,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 6,
+			"priority": 5,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -28853,7 +28643,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 7,
+			"priority": 6,
 			"dispPriority": 0,
 
 	"objectId": 3,
@@ -29105,7 +28895,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 8,
+			"priority": 7,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -29394,7 +29184,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 9,
+			"priority": 8,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -29683,7 +29473,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 10,
+			"priority": 9,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -29972,7 +29762,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 11,
+			"priority": 10,
 			"dispPriority": 0,
 
 	"objectId": 3,
@@ -30249,7 +30039,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 2, "3": 9, "1": 3 },
+							"objectSingleIdHash": { "6": 2, "3": 9 },
 					"folder": false
 						},
 				{
@@ -30293,8 +30083,8 @@
 							"limitCameraWidth": 640,
 							"limitCameraHeight": 900,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -34990,8 +34780,8 @@
 							"limitCameraWidth": 320,
 							"limitCameraHeight": 900,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -40482,8 +40272,8 @@
 							"vertScreenCount": 3,
 							"tileset": [ 6, 16 ],
 							"memo": "",
-							"playBgmType": 2,
-							"bgmId": -1,
+							"playBgmType": 1,
+							"bgmId": 1,
 							"loopBgmFlag": true,
 							"bgColorR": 0,
 							"bgColorG": 0,
@@ -40516,8 +40306,8 @@
 							"limitCameraWidth": 1600,
 							"limitCameraHeight": 540,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -49434,8 +49224,8 @@
 								"24,20": { "tilesetId": 16, "x": 0, "y": 1  },
 								"24,21": { "tilesetId": 16, "x": 0, "y": 2  },
 								"24,25": { "tilesetId": 16, "x": 0, "y": 0  },
-								"24,26": { "tilesetId": 16, "x": 1, "y": 1  },
-								"24,27": { "tilesetId": 16, "x": 1, "y": 1  },
+								"24,26": { "tilesetId": 16, "x": 0, "y": 1  },
+								"24,27": { "tilesetId": 16, "x": 0, "y": 1  },
 								"24,28": { "tilesetId": 16, "x": 1, "y": 1  },
 								"24,29": { "tilesetId": 16, "x": 1, "y": 1  },
 								"24,30": { "tilesetId": 16, "x": 1, "y": 1  },
@@ -49556,9 +49346,9 @@
 								"27,40": { "tilesetId": 16, "x": 0, "y": 2  },
 								"27,44": { "tilesetId": 16, "x": 1, "y": 0  },
 								"28,22": { "tilesetId": 16, "x": 2, "y": 0  },
-								"28,23": { "tilesetId": 16, "x": 1, "y": 1  },
-								"28,24": { "tilesetId": 16, "x": 1, "y": 1  },
-								"28,25": { "tilesetId": 16, "x": 1, "y": 1  },
+								"28,23": { "tilesetId": 16, "x": 2, "y": 1  },
+								"28,24": { "tilesetId": 16, "x": 2, "y": 1  },
+								"28,25": { "tilesetId": 16, "x": 2, "y": 1  },
 								"28,26": { "tilesetId": 16, "x": 2, "y": 2  },
 								"28,39": { "tilesetId": 16, "x": 1, "y": 0  },
 								"28,40": { "tilesetId": 16, "x": 1, "y": 2  },
@@ -53855,8 +53645,8 @@
 							"limitCameraWidth": 320,
 							"limitCameraHeight": 540,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -54702,8 +54492,8 @@
 							"limitCameraWidth": 320,
 							"limitCameraHeight": 180,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -57976,8 +57766,8 @@
 							"limitCameraWidth": 320,
 							"limitCameraHeight": 540,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
@@ -59238,8 +59028,8 @@
 							"limitCameraWidth": 320,
 							"limitCameraHeight": 180,
 							"disableLimitCamera": false,
-							"initialMenuLayerId": -1,
-							"preloadMenuLayerIdList": [],
+							"initialMenuLayerId": 1,
+							"preloadMenuLayerIdList": [1],
 							"sceneFilterEffectList": [
 					
 							],
