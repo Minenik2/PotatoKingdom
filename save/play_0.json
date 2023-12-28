@@ -1,0 +1,4726 @@
+{
+    "sceneData": {
+        "sceneId": 1,
+        "bgShaderList": [],
+        "topMostShaderList": [],
+        "topMostWithMenuShaderList": [],
+        "sceneLayerEffectList": {
+            "layer6": [],
+            "layer5": [],
+            "layer4": [],
+            "layer3": [],
+            "layer2": [],
+            "layer1": []
+        },
+        "camAnchorX": 0.0,
+        "camAnchorY": 0.0,
+        "rotation": 0.0,
+        "flipX": 0.0,
+        "flipY": 0.0,
+        "gravityX": 0.0,
+        "gravityY": -9.800000190734864,
+        "duration300": -1,
+        "bgm": [
+            {
+                "bgmId": 2,
+                "bgmLoop": true,
+                "bgmVolume": 14,
+                "bgmPan": 0,
+                "bgmPitch": 0
+            }
+        ]
+    },
+    "playerDataList": {
+        "instance3": {
+            "objectId": 1,
+            "instanceId": 3,
+            "layerId": 1,
+            "px": 127.0,
+            "py": 112.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 3,
+            "initialActionId": 2,
+            "prevActionId": 2,
+            "directionNo": 4,
+            "moveDirection": [
+                -1.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 1,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    },
+                    {
+                        "id": 2000,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 127.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 112.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 270.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": -2.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 7.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -2.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.8
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 3.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2000,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 2001,
+                        "value": 0.0
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            "connectObject": [
+                {
+                    "instanceId": 7,
+                    "settingId": 1
+                }
+            ],
+            "connectObjectDispPriority": [
+                {
+                    "instanceId": 7,
+                    "lowerPriority": false
+                }
+            ],
+            "childObject": [
+                {
+                    "instanceId": 7,
+                    "offsetX": 0.0,
+                    "offsetY": 0.0,
+                    "connectId": 4
+                }
+            ],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        }
+    },
+    "initObjDataList": [
+        {
+            "objectId": 3,
+            "instanceId": 4,
+            "layerId": 1,
+            "px": 92.5000991821289,
+            "py": 112.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 4,
+            "initialActionId": 1,
+            "prevActionId": 1,
+            "directionNo": 6,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 3,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 3.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 92.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 112.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 90.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.4
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 4.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 1
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 6,
+            "instanceId": 2,
+            "layerId": 1,
+            "px": 324.79998779296877,
+            "py": 80.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 2,
+            "initialActionId": 6,
+            "prevActionId": 6,
+            "directionNo": 6,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": 3,
+            "playData": {
+                "id": 6,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 6.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 324.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 80.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 90.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.4
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 2.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 1
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 6,
+            "instanceId": 5,
+            "layerId": 1,
+            "px": 482.5669860839844,
+            "py": 112.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 5,
+            "initialActionId": 6,
+            "prevActionId": 6,
+            "directionNo": 6,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": 3,
+            "playData": {
+                "id": 6,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 6.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 482.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 112.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 90.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.4
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 5.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 1
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 10,
+            "instanceId": 6,
+            "layerId": 1,
+            "px": 112.33300018310547,
+            "py": 104.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 6,
+            "initialActionId": 3,
+            "prevActionId": 3,
+            "directionNo": 0,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": 1,
+            "playData": {
+                "id": 10,
+                "switchList": [
+                    {
+                        "id": 2001,
+                        "value": false
+                    },
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 10.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 112.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 104.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 6.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 1,
+            "instanceId": 3,
+            "layerId": 1,
+            "px": 127.0,
+            "py": 112.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 1,
+            "currentSceneId": 1,
+            "scenePartsId": 3,
+            "initialActionId": 2,
+            "prevActionId": 2,
+            "directionNo": 4,
+            "moveDirection": [
+                -1.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 1,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    },
+                    {
+                        "id": 2000,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 127.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 112.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 270.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": -2.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 7.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -2.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.8
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 3.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2000,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 2001,
+                        "value": 0.0
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            "connectObject": [
+                {
+                    "instanceId": 7,
+                    "settingId": 1
+                }
+            ],
+            "connectObjectDispPriority": [
+                {
+                    "instanceId": 7,
+                    "lowerPriority": false
+                }
+            ],
+            "childObject": [
+                {
+                    "instanceId": 7,
+                    "offsetX": 0.0,
+                    "offsetY": 0.0,
+                    "connectId": 4
+                }
+            ],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 4,
+            "instanceId": 7,
+            "layerId": 1,
+            "px": 115.0,
+            "py": 116.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": -1,
+            "currentSceneId": 1,
+            "scenePartsId": 0,
+            "initialActionId": 2,
+            "prevActionId": 2,
+            "directionNo": 4,
+            "moveDirection": [
+                1.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 4,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 2003,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 1,
+                        "value": 4.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 200.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 5.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 115.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 116.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": -2.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 7.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": 3.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 2,
+            "instanceId": 100000001,
+            "layerId": 1,
+            "px": 38.0,
+            "py": 14.0,
+            "sx": 0.5,
+            "sy": 0.5,
+            "sceneId": 99999999,
+            "currentSceneId": 99999999,
+            "scenePartsId": 2,
+            "initialActionId": 1,
+            "prevActionId": 1,
+            "directionNo": -1,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": 1,
+            "playData": {
+                "id": 2,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 2.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 200.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 5.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 38.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 14.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 50.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 50.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 100000001.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            "shader": [],
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 8,
+            "instanceId": 100000002,
+            "layerId": 1,
+            "px": 25.0,
+            "py": 17.0,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 99999999,
+            "currentSceneId": 99999999,
+            "scenePartsId": 3,
+            "initialActionId": 1,
+            "prevActionId": 1,
+            "directionNo": 6,
+            "moveDirection": [
+                0.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 8,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 8.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 25.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 17.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 90.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -1.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 100000002.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            "connectObject": [],
+            "connectObjectDispPriority": [],
+            "childObject": [],
+            "middleFrameStock": {
+                "middleFrameIndex": 1,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        }
+    ],
+    "initEndTakeoverObjList": [],
+    "reappearDataList": [],
+    "notReappearDataList": [],
+    "commandReappearDataList": [],
+    "scriptPluginInternals": "{}",
+    "playData": {
+        "switchList": [
+            {
+                "id": 1,
+                "value": false
+            },
+            {
+                "id": 2,
+                "value": false
+            },
+            {
+                "id": 6,
+                "value": false
+            },
+            {
+                "id": 7,
+                "value": false
+            },
+            {
+                "id": 8,
+                "value": false
+            },
+            {
+                "id": 9,
+                "value": false
+            },
+            {
+                "id": 10,
+                "value": true
+            },
+            {
+                "id": 11,
+                "value": true
+            },
+            {
+                "id": 12,
+                "value": false
+            },
+            {
+                "id": 13,
+                "value": true,
+                "readOnly": true
+            }
+        ],
+        "variableList": [
+            {
+                "id": 18,
+                "value": 0.0,
+                "type": 1
+            },
+            {
+                "id": 19,
+                "value": -1.0,
+                "type": 1
+            },
+            {
+                "id": 20,
+                "value": -1.0,
+                "type": 1
+            },
+            {
+                "id": 21,
+                "value": -1.0,
+                "type": 1
+            },
+            {
+                "id": 6,
+                "value": 1.0,
+                "readOnly": true
+            },
+            {
+                "id": 7,
+                "value": -1.0
+            },
+            {
+                "id": 8,
+                "value": -1.0
+            },
+            {
+                "id": 9,
+                "value": -1.0
+            },
+            {
+                "id": 10,
+                "value": -1.0
+            },
+            {
+                "id": 14,
+                "value": -1.0
+            },
+            {
+                "id": 15,
+                "value": -1.0
+            },
+            {
+                "id": 16,
+                "value": -1.0
+            },
+            {
+                "id": 17,
+                "value": -1.0
+            },
+            {
+                "id": 11,
+                "value": 0.0
+            },
+            {
+                "id": 12,
+                "value": 0.0
+            },
+            {
+                "id": 13,
+                "value": 0.0
+            },
+            {
+                "id": 22,
+                "value": 200.0
+            },
+            {
+                "id": 23,
+                "value": 100.0
+            },
+            {
+                "id": 24,
+                "value": 100.0
+            },
+            {
+                "id": 25,
+                "value": 100.0
+            },
+            {
+                "id": 26,
+                "value": 100.0
+            },
+            {
+                "id": 2002,
+                "value": 0.0
+            }
+        ],
+        "objectList": [
+            {
+                "id": 1,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    },
+                    {
+                        "id": 2000,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 7.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.8
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2000,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 2001,
+                        "value": 0.0
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            {
+                "id": 2,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 2.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 200.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 5.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 100000001.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            {
+                "id": 3,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 3.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.4
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 4.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 1
+            },
+            {
+                "id": 6,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 6.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.4
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 2.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 1
+            },
+            {
+                "id": 4,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 2003,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 1,
+                        "value": 4.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 200.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 5.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 7.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            {
+                "id": 5,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 5.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 6.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 6.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            {
+                "id": 9,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 9.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 6.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 6.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            {
+                "id": 7,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 7.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 200.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 5.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            {
+                "id": 8,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 8.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 100000002.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            },
+            {
+                "id": 10,
+                "switchList": [
+                    {
+                        "id": 2001,
+                        "value": false
+                    },
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false
+                    },
+                    {
+                        "id": 9,
+                        "value": false
+                    },
+                    {
+                        "id": 10,
+                        "value": false
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 10.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": 0.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 6.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    }
+                ],
+                "hitObjectGroupBit": 0
+            }
+        ]
+    }
+}
