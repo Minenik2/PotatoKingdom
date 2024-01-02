@@ -240,7 +240,7 @@
                     },
                     {
                         "id": 14,
-                        "value": 0.0
+                        "value": 1.0
                     },
                     {
                         "id": 17,
@@ -785,7 +785,7 @@
                     },
                     {
                         "id": 14,
-                        "value": 0.0
+                        "value": 1.0
                     },
                     {
                         "id": 17,
@@ -1135,8 +1135,8 @@
             "sceneId": 99999999,
             "currentSceneId": 99999999,
             "scenePartsId": 2,
-            "initialActionId": 1,
-            "prevActionId": 1,
+            "initialActionId": 2,
+            "prevActionId": 2,
             "directionNo": -1,
             "moveDirection": [
                 0.0,
@@ -1144,7 +1144,7 @@
             ],
             "courseId": -1,
             "coursePointId": -1,
-            "takeOverAnimMotionId": 1,
+            "takeOverAnimMotionId": -1,
             "playData": {
                 "id": 2,
                 "switchList": [
@@ -1364,6 +1364,25 @@
                 ],
                 "hitObjectGroupBit": 0
             },
+            "shader": [
+                {
+                    "kind": 12,
+                    "ignored": false,
+                    "value": 1.0,
+                    "nextValue": 1.0,
+                    "prevValue": 0.0,
+                    "oldValue": 0.0,
+                    "ignored": false,
+                    "timer": 0.0,
+                    "seconds": 0.0,
+                    "color": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 200
+                    }
+                }
+            ],
             "connectObject": [],
             "connectObjectDispPriority": [],
             "childObject": [],
@@ -1637,7 +1656,72 @@
     ],
     "initEndTakeoverObjList": [],
     "reappearDataList": [],
-    "notReappearDataList": [],
+    "notReappearDataList": [
+        {
+            "sceneId": 33,
+            "scenePartsId": 3,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 291.6000061035156,
+            "initialPositionY": 112.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 33,
+            "scenePartsId": 4,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 431.0,
+            "initialPositionY": 160.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 33,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 285.0,
+            "initialPositionY": 288.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 7,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 36.0,
+            "initialPositionY": 432.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        }
+    ],
     "commandReappearDataList": [],
     "scriptPluginInternals": "{}",
     "playData": {
@@ -1756,11 +1840,11 @@
             },
             {
                 "id": 22,
-                "value": 169.0
+                "value": -1.0
             },
             {
                 "id": 23,
-                "value": 154.0
+                "value": -1.0
             },
             {
                 "id": 24,
