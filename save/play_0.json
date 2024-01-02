@@ -1,23 +1,21 @@
 {
     "sceneData": {
-        "sceneId": 1,
+        "sceneId": 34,
         "bgShaderList": [],
         "topMostShaderList": [],
         "topMostWithMenuShaderList": [],
         "sceneLayerEffectList": {
-            "layer6": [],
-            "layer5": [],
             "layer4": [],
             "layer3": [],
-            "layer2": [],
-            "layer1": [
+            "layer2": [
                 {
-                    "kind": 9,
-                    "value": 0.0,
-                    "seconds": 0.0,
+                    "kind": 5,
+                    "value": 0.3499999940395355,
+                    "seconds": 1.0,
                     "ignored": false
                 }
-            ]
+            ],
+            "layer1": []
         },
         "camAnchorX": 0.0,
         "camAnchorY": 0.0,
@@ -38,19 +36,19 @@
         ]
     },
     "playerDataList": {
-        "instance3": {
+        "instance10": {
             "objectId": 1,
-            "instanceId": 3,
+            "instanceId": 10,
             "layerId": 1,
-            "px": 98.0,
-            "py": 112.0,
+            "px": 138.0,
+            "py": 99.59201049804688,
             "sx": 1.0,
             "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
-            "scenePartsId": 3,
-            "initialActionId": 2,
-            "prevActionId": 2,
+            "sceneId": 7,
+            "currentSceneId": 34,
+            "scenePartsId": 5,
+            "initialActionId": 4,
+            "prevActionId": 4,
             "directionNo": 6,
             "moveDirection": [
                 1.0,
@@ -164,12 +162,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 98.0,
+                        "value": 138.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 112.0,
+                        "value": 100.0,
                         "type": 1
                     },
                     {
@@ -193,7 +191,7 @@
                     },
                     {
                         "id": 12,
-                        "value": 0.0
+                        "value": 3.0
                     },
                     {
                         "id": 23,
@@ -254,7 +252,7 @@
                     },
                     {
                         "id": 19,
-                        "value": 3.0,
+                        "value": 10.0,
                         "readOnly": true
                     },
                     {
@@ -285,26 +283,26 @@
                     },
                     {
                         "id": 2001,
-                        "value": 0.0
+                        "value": 1.0
                     }
                 ],
                 "hitObjectGroupBit": 2
             },
             "connectObject": [
                 {
-                    "instanceId": 10,
+                    "instanceId": 11,
                     "settingId": 1
                 }
             ],
             "connectObjectDispPriority": [
                 {
-                    "instanceId": 10,
+                    "instanceId": 11,
                     "lowerPriority": false
                 }
             ],
             "childObject": [
                 {
-                    "instanceId": 10,
+                    "instanceId": 11,
                     "offsetX": 0.0,
                     "offsetY": 0.0,
                     "connectId": 4
@@ -325,1065 +323,16 @@
     },
     "initObjDataList": [
         {
-            "objectId": 1,
-            "instanceId": 3,
-            "layerId": 1,
-            "px": 98.0,
-            "py": 112.0,
-            "sx": 1.0,
-            "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
-            "scenePartsId": 3,
-            "initialActionId": 2,
-            "prevActionId": 2,
-            "directionNo": 6,
-            "moveDirection": [
-                1.0,
-                0.0
-            ],
-            "courseId": -1,
-            "coursePointId": -1,
-            "takeOverAnimMotionId": -1,
-            "playData": {
-                "id": 1,
-                "switchList": [
-                    {
-                        "id": 1,
-                        "value": false
-                    },
-                    {
-                        "id": 2,
-                        "value": false
-                    },
-                    {
-                        "id": 3,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 4,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 5,
-                        "value": false
-                    },
-                    {
-                        "id": 6,
-                        "value": false
-                    },
-                    {
-                        "id": 7,
-                        "value": false
-                    },
-                    {
-                        "id": 8,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 9,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 10,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 11,
-                        "value": false
-                    },
-                    {
-                        "id": 2000,
-                        "value": false
-                    }
-                ],
-                "variableList": [
-                    {
-                        "id": 1,
-                        "value": 1.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 2,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 3,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 4,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 5,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 15,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 16,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 6,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 36,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 7,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 8,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 9,
-                        "value": 98.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 10,
-                        "value": 112.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 37,
-                        "value": 90.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 32,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 33,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 11,
-                        "value": 2.0
-                    },
-                    {
-                        "id": 12,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 23,
-                        "value": 2.0
-                    },
-                    {
-                        "id": 24,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 25,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 26,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 27,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 28,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 29,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 30,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 35,
-                        "value": 7.0
-                    },
-                    {
-                        "id": 13,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 22,
-                        "value": -2.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 14,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 17,
-                        "value": 0.8
-                    },
-                    {
-                        "id": 18,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 19,
-                        "value": 3.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 21,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 20,
-                        "value": 0.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 31,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 34,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 38,
-                        "value": -1.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 2000,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 2001,
-                        "value": 0.0
-                    }
-                ],
-                "hitObjectGroupBit": 2
-            },
-            "connectObject": [
-                {
-                    "instanceId": 10,
-                    "settingId": 1
-                }
-            ],
-            "connectObjectDispPriority": [
-                {
-                    "instanceId": 10,
-                    "lowerPriority": false
-                }
-            ],
-            "childObject": [
-                {
-                    "instanceId": 10,
-                    "offsetX": 0.0,
-                    "offsetY": 0.0,
-                    "connectId": 4
-                }
-            ],
-            "middleFrameStock": {
-                "middleFrameIndex": 0,
-                "frameData": [
-                    {
-                        "hasMiddleFrame": false
-                    },
-                    {
-                        "hasMiddleFrame": false
-                    }
-                ]
-            }
-        },
-        {
-            "objectId": 3,
-            "instanceId": 4,
-            "layerId": 1,
-            "px": 237.39999389648438,
-            "py": 112.0,
-            "sx": 1.0,
-            "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
-            "scenePartsId": 4,
-            "initialActionId": 1,
-            "prevActionId": 1,
-            "directionNo": 4,
-            "moveDirection": [
-                0.0,
-                0.0
-            ],
-            "courseId": -1,
-            "coursePointId": -1,
-            "takeOverAnimMotionId": -1,
-            "playData": {
-                "id": 3,
-                "switchList": [
-                    {
-                        "id": 1,
-                        "value": false
-                    },
-                    {
-                        "id": 2,
-                        "value": false
-                    },
-                    {
-                        "id": 3,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 4,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 5,
-                        "value": false
-                    },
-                    {
-                        "id": 6,
-                        "value": false
-                    },
-                    {
-                        "id": 7,
-                        "value": false
-                    },
-                    {
-                        "id": 8,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 9,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 10,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 11,
-                        "value": false
-                    }
-                ],
-                "variableList": [
-                    {
-                        "id": 1,
-                        "value": 3.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 2,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 3,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 4,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 5,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 15,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 16,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 6,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 36,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 7,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 8,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 9,
-                        "value": 237.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 10,
-                        "value": 112.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 37,
-                        "value": 270.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 32,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 33,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 11,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 12,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 23,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 24,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 25,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 26,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 27,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 28,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 29,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 30,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 35,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 13,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 22,
-                        "value": -1.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 14,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 17,
-                        "value": 0.4
-                    },
-                    {
-                        "id": 18,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 19,
-                        "value": 4.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 21,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 20,
-                        "value": 0.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 31,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 34,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 38,
-                        "value": -1.0,
-                        "readOnly": true
-                    }
-                ],
-                "hitObjectGroupBit": 1
-            },
-            "connectObject": [],
-            "connectObjectDispPriority": [],
-            "childObject": [],
-            "middleFrameStock": {
-                "middleFrameIndex": 0,
-                "frameData": [
-                    {
-                        "hasMiddleFrame": false
-                    },
-                    {
-                        "hasMiddleFrame": false
-                    }
-                ]
-            }
-        },
-        {
-            "objectId": 6,
+            "objectId": 10,
             "instanceId": 2,
             "layerId": 1,
-            "px": 291.79998779296877,
-            "py": 80.0,
+            "px": 144.0,
+            "py": 136.0,
             "sx": 1.0,
             "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
+            "sceneId": 34,
+            "currentSceneId": 34,
             "scenePartsId": 2,
-            "initialActionId": 1,
-            "prevActionId": 1,
-            "directionNo": -1,
-            "moveDirection": [
-                0.0,
-                0.0
-            ],
-            "courseId": -1,
-            "coursePointId": -1,
-            "takeOverAnimMotionId": -1,
-            "playData": {
-                "id": 6,
-                "switchList": [
-                    {
-                        "id": 1,
-                        "value": false
-                    },
-                    {
-                        "id": 2,
-                        "value": false
-                    },
-                    {
-                        "id": 3,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 4,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 5,
-                        "value": false
-                    },
-                    {
-                        "id": 6,
-                        "value": false
-                    },
-                    {
-                        "id": 7,
-                        "value": false
-                    },
-                    {
-                        "id": 8,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 9,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 10,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 11,
-                        "value": false
-                    }
-                ],
-                "variableList": [
-                    {
-                        "id": 1,
-                        "value": 6.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 2,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 3,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 4,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 5,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 15,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 16,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 6,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 36,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 7,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 8,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 9,
-                        "value": 291.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 10,
-                        "value": 80.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 37,
-                        "value": 270.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 32,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 33,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 11,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 12,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 23,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 24,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 25,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 26,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 27,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 28,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 29,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 30,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 35,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 13,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 22,
-                        "value": -1.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 14,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 17,
-                        "value": 0.4
-                    },
-                    {
-                        "id": 18,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 19,
-                        "value": 2.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 21,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 20,
-                        "value": 0.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 31,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 34,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 38,
-                        "value": -1.0,
-                        "readOnly": true
-                    }
-                ],
-                "hitObjectGroupBit": 1
-            },
-            "connectObject": [],
-            "connectObjectDispPriority": [],
-            "childObject": [],
-            "middleFrameStock": {
-                "middleFrameIndex": 0,
-                "frameData": [
-                    {
-                        "hasMiddleFrame": false
-                    },
-                    {
-                        "hasMiddleFrame": false
-                    }
-                ]
-            }
-        },
-        {
-            "objectId": 6,
-            "instanceId": 5,
-            "layerId": 1,
-            "px": 371.2669982910156,
-            "py": 112.0,
-            "sx": 1.0,
-            "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
-            "scenePartsId": 5,
-            "initialActionId": 1,
-            "prevActionId": 1,
-            "directionNo": 4,
-            "moveDirection": [
-                0.0,
-                0.0
-            ],
-            "courseId": -1,
-            "coursePointId": -1,
-            "takeOverAnimMotionId": -1,
-            "playData": {
-                "id": 6,
-                "switchList": [
-                    {
-                        "id": 1,
-                        "value": false
-                    },
-                    {
-                        "id": 2,
-                        "value": false
-                    },
-                    {
-                        "id": 3,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 4,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 5,
-                        "value": false
-                    },
-                    {
-                        "id": 6,
-                        "value": false
-                    },
-                    {
-                        "id": 7,
-                        "value": false
-                    },
-                    {
-                        "id": 8,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 9,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 10,
-                        "value": false,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 11,
-                        "value": false
-                    }
-                ],
-                "variableList": [
-                    {
-                        "id": 1,
-                        "value": 6.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 2,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 3,
-                        "value": 3.0
-                    },
-                    {
-                        "id": 4,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 5,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 15,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 16,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 6,
-                        "value": 100.0
-                    },
-                    {
-                        "id": 36,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 7,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 8,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 9,
-                        "value": 371.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 10,
-                        "value": 112.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 37,
-                        "value": 270.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 32,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 33,
-                        "value": 100.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 11,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 12,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 23,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 24,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 25,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 26,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 27,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 28,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 29,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 30,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 35,
-                        "value": 1.0
-                    },
-                    {
-                        "id": 13,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 22,
-                        "value": -1.0,
-                        "type": 1
-                    },
-                    {
-                        "id": 14,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 17,
-                        "value": 0.4
-                    },
-                    {
-                        "id": 18,
-                        "value": -1.0
-                    },
-                    {
-                        "id": 19,
-                        "value": 5.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 21,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 20,
-                        "value": 0.0,
-                        "readOnly": true
-                    },
-                    {
-                        "id": 31,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 34,
-                        "value": 0.0
-                    },
-                    {
-                        "id": 38,
-                        "value": -1.0,
-                        "readOnly": true
-                    }
-                ],
-                "hitObjectGroupBit": 1
-            },
-            "connectObject": [],
-            "connectObjectDispPriority": [],
-            "childObject": [],
-            "middleFrameStock": {
-                "middleFrameIndex": 0,
-                "frameData": [
-                    {
-                        "hasMiddleFrame": false
-                    },
-                    {
-                        "hasMiddleFrame": false
-                    }
-                ]
-            }
-        },
-        {
-            "objectId": 10,
-            "instanceId": 6,
-            "layerId": 1,
-            "px": 112.33300018310547,
-            "py": 104.0,
-            "sx": 1.0,
-            "sy": 1.0,
-            "sceneId": 1,
-            "currentSceneId": 1,
-            "scenePartsId": 6,
             "initialActionId": 3,
             "prevActionId": 3,
             "directionNo": -1,
@@ -1499,12 +448,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 112.0,
+                        "value": 144.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 104.0,
+                        "value": 136.0,
                         "type": 1
                     },
                     {
@@ -1589,7 +538,7 @@
                     },
                     {
                         "id": 19,
-                        "value": 6.0,
+                        "value": 2.0,
                         "readOnly": true
                     },
                     {
@@ -1633,15 +582,299 @@
             }
         },
         {
-            "objectId": 4,
+            "objectId": 1,
             "instanceId": 10,
             "layerId": 1,
-            "px": 110.0,
-            "py": 116.0,
+            "px": 138.0,
+            "py": 99.59201049804688,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sceneId": 7,
+            "currentSceneId": 34,
+            "scenePartsId": 5,
+            "initialActionId": 4,
+            "prevActionId": 4,
+            "directionNo": 6,
+            "moveDirection": [
+                1.0,
+                0.0
+            ],
+            "courseId": -1,
+            "coursePointId": -1,
+            "takeOverAnimMotionId": -1,
+            "playData": {
+                "id": 1,
+                "switchList": [
+                    {
+                        "id": 1,
+                        "value": false
+                    },
+                    {
+                        "id": 2,
+                        "value": false
+                    },
+                    {
+                        "id": 3,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 4,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 5,
+                        "value": false
+                    },
+                    {
+                        "id": 6,
+                        "value": false
+                    },
+                    {
+                        "id": 7,
+                        "value": false
+                    },
+                    {
+                        "id": 8,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 9,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 10,
+                        "value": false,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 11,
+                        "value": false
+                    },
+                    {
+                        "id": 2000,
+                        "value": false
+                    }
+                ],
+                "variableList": [
+                    {
+                        "id": 1,
+                        "value": 1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 3,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 15,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 16,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 6,
+                        "value": 100.0
+                    },
+                    {
+                        "id": 36,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 7,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 8,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 9,
+                        "value": 138.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 10,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 37,
+                        "value": 90.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 32,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 33,
+                        "value": 100.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 11,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 12,
+                        "value": 3.0
+                    },
+                    {
+                        "id": 23,
+                        "value": 2.0
+                    },
+                    {
+                        "id": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 25,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 27,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 28,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 29,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 30,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 35,
+                        "value": 7.0
+                    },
+                    {
+                        "id": 13,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 22,
+                        "value": -2.0,
+                        "type": 1
+                    },
+                    {
+                        "id": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 17,
+                        "value": 0.8
+                    },
+                    {
+                        "id": 18,
+                        "value": -1.0
+                    },
+                    {
+                        "id": 19,
+                        "value": 10.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 21,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 20,
+                        "value": 0.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 31,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 34,
+                        "value": 0.0
+                    },
+                    {
+                        "id": 38,
+                        "value": -1.0,
+                        "readOnly": true
+                    },
+                    {
+                        "id": 2000,
+                        "value": 1.0
+                    },
+                    {
+                        "id": 2001,
+                        "value": 1.0
+                    }
+                ],
+                "hitObjectGroupBit": 2
+            },
+            "connectObject": [
+                {
+                    "instanceId": 11,
+                    "settingId": 1
+                }
+            ],
+            "connectObjectDispPriority": [
+                {
+                    "instanceId": 11,
+                    "lowerPriority": false
+                }
+            ],
+            "childObject": [
+                {
+                    "instanceId": 11,
+                    "offsetX": 0.0,
+                    "offsetY": 0.0,
+                    "connectId": 4
+                }
+            ],
+            "middleFrameStock": {
+                "middleFrameIndex": 0,
+                "frameData": [
+                    {
+                        "hasMiddleFrame": false
+                    },
+                    {
+                        "hasMiddleFrame": false
+                    }
+                ]
+            }
+        },
+        {
+            "objectId": 4,
+            "instanceId": 11,
+            "layerId": 1,
+            "px": 150.0,
+            "py": 103.59201049804688,
             "sx": 1.0,
             "sy": 1.0,
             "sceneId": -1,
-            "currentSceneId": 1,
+            "currentSceneId": 34,
             "scenePartsId": 0,
             "initialActionId": 1,
             "prevActionId": 1,
@@ -1758,12 +991,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 110.0,
+                        "value": 150.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 116.0,
+                        "value": 104.0,
                         "type": 1
                     },
                     {
@@ -1787,7 +1020,7 @@
                     },
                     {
                         "id": 12,
-                        "value": 0.0
+                        "value": 3.0
                     },
                     {
                         "id": 23,
@@ -1848,7 +1081,7 @@
                     },
                     {
                         "id": 19,
-                        "value": 10.0,
+                        "value": 11.0,
                         "readOnly": true
                     },
                     {
@@ -1870,7 +1103,7 @@
                     },
                     {
                         "id": 38,
-                        "value": 3.0,
+                        "value": 10.0,
                         "readOnly": true
                     }
                 ],
@@ -1896,7 +1129,7 @@
             "instanceId": 100000001,
             "layerId": 1,
             "px": 38.0,
-            "py": 14.0,
+            "py": 175.0,
             "sx": 0.5,
             "sy": 0.5,
             "sceneId": 99999999,
@@ -2018,7 +1251,7 @@
                     },
                     {
                         "id": 10,
-                        "value": 14.0,
+                        "value": 175.0,
                         "type": 1
                     },
                     {
@@ -2159,7 +1392,7 @@
             "scenePartsId": 3,
             "initialActionId": 1,
             "prevActionId": 1,
-            "directionNo": -1,
+            "directionNo": 6,
             "moveDirection": [
                 0.0,
                 0.0
@@ -2404,11 +1637,66 @@
     ],
     "initEndTakeoverObjList": [],
     "reappearDataList": [],
+    "notReappearDataList": [
+        {
+            "sceneId": 7,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 36.0,
+            "initialPositionY": 432.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 2,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 3,
+            "initialActionId": 1,
+            "initialPositionX": 133.33299255371095,
+            "initialPositionY": 272.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 2,
+            "scenePartsId": 3,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 810.0,
+            "initialPositionY": 272.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        }
+    ],
+    "commandReappearDataList": [],
     "scriptPluginInternals": "{}",
     "playData": {
         "switchList": [
             {
                 "id": 1,
+                "value": false
+            },
+            {
+                "id": 2,
                 "value": false
             },
             {
@@ -2443,10 +1731,6 @@
                 "id": 13,
                 "value": true,
                 "readOnly": true
-            },
-            {
-                "id": 2,
-                "value": false
             }
         ],
         "variableList": [
@@ -2762,11 +2046,11 @@
                     },
                     {
                         "id": 21,
-                        "value": 3.0
+                        "value": 10.0
                     },
                     {
                         "id": 20,
-                        "value": 1.0,
+                        "value": 2.0,
                         "readOnly": true
                     },
                     {
@@ -3202,11 +2486,11 @@
                     },
                     {
                         "id": 21,
-                        "value": 4.0
+                        "value": 0.0
                     },
                     {
                         "id": 20,
-                        "value": 1.0,
+                        "value": 0.0,
                         "readOnly": true
                     },
                     {
@@ -3418,11 +2702,11 @@
                     },
                     {
                         "id": 21,
-                        "value": 2.0
+                        "value": 0.0
                     },
                     {
                         "id": 20,
-                        "value": 2.0,
+                        "value": 0.0,
                         "readOnly": true
                     },
                     {
@@ -3638,7 +2922,7 @@
                     },
                     {
                         "id": 21,
-                        "value": 10.0
+                        "value": 11.0
                     },
                     {
                         "id": 20,
@@ -4722,7 +4006,7 @@
                     },
                     {
                         "id": 21,
-                        "value": 6.0
+                        "value": 2.0
                     },
                     {
                         "id": 20,
