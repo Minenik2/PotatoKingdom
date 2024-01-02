@@ -40,15 +40,15 @@
             "objectId": 1,
             "instanceId": 10,
             "layerId": 1,
-            "px": 138.0,
-            "py": 99.59201049804688,
+            "px": 130.0,
+            "py": 144.0,
             "sx": 1.0,
             "sy": 1.0,
             "sceneId": 7,
             "currentSceneId": 34,
             "scenePartsId": 5,
-            "initialActionId": 4,
-            "prevActionId": 4,
+            "initialActionId": 5,
+            "prevActionId": 5,
             "directionNo": 6,
             "moveDirection": [
                 1.0,
@@ -162,12 +162,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 138.0,
+                        "value": 130.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 100.0,
+                        "value": 144.0,
                         "type": 1
                     },
                     {
@@ -191,7 +191,7 @@
                     },
                     {
                         "id": 12,
-                        "value": 3.0
+                        "value": 0.0
                     },
                     {
                         "id": 23,
@@ -283,7 +283,7 @@
                     },
                     {
                         "id": 2001,
-                        "value": 1.0
+                        "value": 0.0
                     }
                 ],
                 "hitObjectGroupBit": 2
@@ -585,15 +585,15 @@
             "objectId": 1,
             "instanceId": 10,
             "layerId": 1,
-            "px": 138.0,
-            "py": 99.59201049804688,
+            "px": 130.0,
+            "py": 144.0,
             "sx": 1.0,
             "sy": 1.0,
             "sceneId": 7,
             "currentSceneId": 34,
             "scenePartsId": 5,
-            "initialActionId": 4,
-            "prevActionId": 4,
+            "initialActionId": 5,
+            "prevActionId": 5,
             "directionNo": 6,
             "moveDirection": [
                 1.0,
@@ -707,12 +707,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 138.0,
+                        "value": 130.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 100.0,
+                        "value": 144.0,
                         "type": 1
                     },
                     {
@@ -736,7 +736,7 @@
                     },
                     {
                         "id": 12,
-                        "value": 3.0
+                        "value": 0.0
                     },
                     {
                         "id": 23,
@@ -828,7 +828,7 @@
                     },
                     {
                         "id": 2001,
-                        "value": 1.0
+                        "value": 0.0
                     }
                 ],
                 "hitObjectGroupBit": 2
@@ -869,8 +869,8 @@
             "objectId": 4,
             "instanceId": 11,
             "layerId": 1,
-            "px": 150.0,
-            "py": 103.59201049804688,
+            "px": 142.0,
+            "py": 148.0,
             "sx": 1.0,
             "sy": 1.0,
             "sceneId": -1,
@@ -991,12 +991,12 @@
                     },
                     {
                         "id": 9,
-                        "value": 150.0,
+                        "value": 142.0,
                         "type": 1
                     },
                     {
                         "id": 10,
-                        "value": 104.0,
+                        "value": 148.0,
                         "type": 1
                     },
                     {
@@ -1020,7 +1020,7 @@
                     },
                     {
                         "id": 12,
-                        "value": 3.0
+                        "value": 0.0
                     },
                     {
                         "id": 23,
@@ -1637,56 +1637,7 @@
     ],
     "initEndTakeoverObjList": [],
     "reappearDataList": [],
-    "notReappearDataList": [
-        {
-            "sceneId": 7,
-            "scenePartsId": 2,
-            "sceneLayerId": 1,
-            "objectId": 6,
-            "initialActionId": 1,
-            "initialPositionX": 36.0,
-            "initialPositionY": 432.0,
-            "initialScaleX": 1.0,
-            "initialScaleY": 1.0,
-            "initialRotation": 0.0,
-            "initialMoveDirectionId": -1,
-            "reappearFlag": false,
-            "initialCourseId": -1,
-            "InitialCoursePointId": -1
-        },
-        {
-            "sceneId": 2,
-            "scenePartsId": 2,
-            "sceneLayerId": 1,
-            "objectId": 3,
-            "initialActionId": 1,
-            "initialPositionX": 133.33299255371095,
-            "initialPositionY": 272.0,
-            "initialScaleX": 1.0,
-            "initialScaleY": 1.0,
-            "initialRotation": 0.0,
-            "initialMoveDirectionId": -1,
-            "reappearFlag": false,
-            "initialCourseId": -1,
-            "InitialCoursePointId": -1
-        },
-        {
-            "sceneId": 2,
-            "scenePartsId": 3,
-            "sceneLayerId": 1,
-            "objectId": 6,
-            "initialActionId": 1,
-            "initialPositionX": 810.0,
-            "initialPositionY": 272.0,
-            "initialScaleX": 1.0,
-            "initialScaleY": 1.0,
-            "initialRotation": 0.0,
-            "initialMoveDirectionId": -1,
-            "reappearFlag": false,
-            "initialCourseId": -1,
-            "InitialCoursePointId": -1
-        }
-    ],
+    "notReappearDataList": [],
     "commandReappearDataList": [],
     "scriptPluginInternals": "{}",
     "playData": {
@@ -1805,11 +1756,11 @@
             },
             {
                 "id": 22,
-                "value": -1.0
+                "value": 169.0
             },
             {
                 "id": 23,
-                "value": -1.0
+                "value": 154.0
             },
             {
                 "id": 24,
