@@ -40,7 +40,7 @@
             "objectId": 1,
             "instanceId": 10,
             "layerId": 1,
-            "px": 128.39999389648438,
+            "px": 130.0,
             "py": 144.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -130,7 +130,7 @@
                     },
                     {
                         "id": 4,
-                        "value": 1.0
+                        "value": 126.0
                     },
                     {
                         "id": 5,
@@ -162,7 +162,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 128.0,
+                        "value": 130.0,
                         "type": 1
                     },
                     {
@@ -585,7 +585,7 @@
             "objectId": 1,
             "instanceId": 10,
             "layerId": 1,
-            "px": 128.39999389648438,
+            "px": 130.0,
             "py": 144.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -675,7 +675,7 @@
                     },
                     {
                         "id": 4,
-                        "value": 1.0
+                        "value": 126.0
                     },
                     {
                         "id": 5,
@@ -707,7 +707,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 128.0,
+                        "value": 130.0,
                         "type": 1
                     },
                     {
@@ -869,7 +869,7 @@
             "objectId": 4,
             "instanceId": 11,
             "layerId": 1,
-            "px": 140.39999389648438,
+            "px": 142.0,
             "py": 148.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -991,7 +991,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 140.0,
+                        "value": 142.0,
                         "type": 1
                     },
                     {
@@ -1637,7 +1637,104 @@
     ],
     "initEndTakeoverObjList": [],
     "reappearDataList": [],
-    "notReappearDataList": [],
+    "notReappearDataList": [
+        {
+            "sceneId": 7,
+            "scenePartsId": 3,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 156.0,
+            "initialPositionY": 688.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 33,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 285.0,
+            "initialPositionY": 288.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 33,
+            "scenePartsId": 4,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 431.0,
+            "initialPositionY": 160.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 33,
+            "scenePartsId": 3,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 291.6000061035156,
+            "initialPositionY": 112.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 7,
+            "scenePartsId": 2,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 36.0,
+            "initialPositionY": 432.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        },
+        {
+            "sceneId": 7,
+            "scenePartsId": 4,
+            "sceneLayerId": 1,
+            "objectId": 6,
+            "initialActionId": 1,
+            "initialPositionX": 193.0,
+            "initialPositionY": 848.0,
+            "initialScaleX": 1.0,
+            "initialScaleY": 1.0,
+            "initialRotation": 0.0,
+            "initialMoveDirectionId": -1,
+            "reappearFlag": false,
+            "initialCourseId": -1,
+            "InitialCoursePointId": -1
+        }
+    ],
     "commandReappearDataList": [],
     "scriptPluginInternals": "{}",
     "playData": {
@@ -1756,11 +1853,11 @@
             },
             {
                 "id": 22,
-                "value": 273.0
+                "value": -1.0
             },
             {
                 "id": 23,
-                "value": 112.0
+                "value": -1.0
             },
             {
                 "id": 24,
