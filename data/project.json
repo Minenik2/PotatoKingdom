@@ -7530,6 +7530,27 @@
 	"bulletId": 1,
 	"connectId": 4
 }
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
 } ] },
 	"disappearActionCommandList": [  ]
 ,
@@ -9851,8 +9872,8 @@
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 90.000000,
-	"x": 578,
-	"y": 104,
+	"x": 577,
+	"y": 105,
 	"scalingX": 100,
 	"scalingY": 100,
 	"rotation": 0,
@@ -9867,6 +9888,27 @@
 	"bulletFire": {
 	"bulletId": 1,
 	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
 }
 } ] },
 	"disappearActionCommandList": [  ]
@@ -11525,9 +11567,180 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "enemyBow",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 3,
+			"dispPriority": 0,
+
+	"objectId": 22,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 90.000000,
+	"x": 923,
+	"y": 264,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 5,
+			"name": "enemyBow1",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 4,
+			"dispPriority": 0,
+
+	"objectId": 22,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 300,
+	"y": 264,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "enemyBow2",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 5,
+			"dispPriority": 0,
+
+	"objectId": 22,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 90.000000,
+	"x": 625.5,
+	"y": 265,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": {  },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 3, "3": 2 },
+							"objectSingleIdHash": { "22": 4, "6": 3, "3": 2 },
 					"folder": false
 						},
 				{
@@ -74494,6 +74707,18 @@
 			"loop": false,
 			"srcLoop": false,
 			"folder": false
+		},
+				{
+			"id": 3,
+			"name": "ArrowShot",
+			"filename": "audio/se003.ogg",
+			"srcFilename": "D:/potato kingdom/projectile.ogg",
+			"volume": 100,
+			"pan": 0,
+			"pitch": 0,
+			"loop": false,
+			"srcLoop": false,
+			"folder": false
 		}
 	],
 	"voiceList": [
@@ -97606,6 +97831,27 @@
 	"bulletFire": {
 	"bulletId": 1,
 	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
 }
 } ],
 	"memo": "",
