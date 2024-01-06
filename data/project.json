@@ -562,7 +562,7 @@
 	"flowLinkIdList": [  ]
 }, {
 	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 26, -1] ],
+	"typeIdPair": [ [0, 1, -1], [0, 7, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"startPointGroup": 0,
@@ -598,7 +598,7 @@
 	"postMoveSwitchVariableAssignList": [  ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ -168, -48 ], [ -120, -48 ] ],
+	"coordList": [ [ -215, -24 ], [ 310, 480 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -4060,6 +4060,24 @@
 	"duration300": 300
 }
 } ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -7070,6 +7088,24 @@
 	"duration300": 300
 }
 } ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -11544,7 +11580,7 @@
 							"memo": "",
 							"playBgmType": 1,
 							"bgmId": 3,
-							"loopBgmFlag": false,
+							"loopBgmFlag": true,
 							"bgColorR": 0,
 							"bgColorG": 0,
 							"bgColorB": 0,
@@ -18760,6 +18796,24 @@
 	"duration300": 300
 }
 } ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -26087,6 +26141,24 @@
 	"duration300": 300
 }
 } ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -27713,6 +27785,24 @@
 	"duration300": 300
 }
 } ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -49762,9 +49852,455 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "Player",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 2,
+			"dispPriority": 0,
+
+	"objectId": 1,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": false,
+	"initialDisplayDirection": 90.000000,
+	"x": 173,
+	"y": 47,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 120,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ], "2": [ {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 2,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 90,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 1,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 1,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ], "3": [ {
+	"id": 6,
+	"commandType": 33,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"gameSpeedChange": {
+	"gameSpeed": 0,
+	"duration300": 300,
+	"durationUnlimited": false,
+	"targetObject": true,
+	"targetEffect": true,
+	"targetTile": true,
+	"targetMenu": true,
+	"targettingType": 0,
+	"targetObjectType": 0,
+	"targetObjectGroup": -1,
+	"targetObjectId": -1,
+	"targetQualifierId": -1,
+	"excludePlayerObject": false,
+	"excludeEnemyObject": false,
+	"excludeObjectGroupBit": 0
+}
+}, {
+	"id": 5,
+	"commandType": 51,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundStop": {
+	"soundType": 2,
+	"seId": -1,
+	"voiceId": -1,
+	"bgmId": -1,
+	"fadeout": true,
+	"duration300": 150,
+	"stopOnlySoundByThisObject": false
+}
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 1,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+}, {
+	"id": 1,
+	"commandType": 19,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"sceneEffect": {
+	"layerIndex": -1,
+	"filterEffect": {
+	"effectType": 7,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 150
+}
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 3,
+	"stopGame": false
+}
+}, {
+	"id": 2,
+	"commandType": 55,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"loadFile": {
+	"projectCommonVariables": true,
+	"projectCommonSwitches": true,
+	"sceneAtTimeOfSave": true,
+	"objectsStatesInSceneAtTimeOfSave": true,
+	"effectType": -1,
+	"duration300": 300
+}
+} ], "4": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
+	"id": 3,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 4,
+	"variableAssignOperator": 1,
+	"variableAssignValueType": 0,
+	"assignValue": 5.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+}, {
+	"id": 6,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 90,
+	"stopGame": false
+}
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 2,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 300,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": 1,
+	"qualifierId": -1,
+	"actionId": 1
+}
+}, {
+	"id": 5,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 4,
+	"variableAssignOperator": 2,
+	"variableAssignValueType": 0,
+	"assignValue": 5.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ] },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 2001,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "2": [  ], "3": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 2001,
+	"variableAssignOperator": 1,
+	"variableAssignValueType": 0,
+	"assignValue": 1.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "4": [  ], "5": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 2001,
+	"variableAssignOperator": 0,
+	"variableAssignValueType": 0,
+	"assignValue": 0.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "7": [ {
+	"id": 1,
+	"commandType": 31,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"switchVariableChange": {
+	"swtch": false,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1,
+	"switchValue": 0,
+	"variableObjectId": -2,
+	"variableQualifierId": -1,
+	"variableId": 2001,
+	"variableAssignOperator": 1,
+	"variableAssignValueType": 0,
+	"assignValue": 1.000000,
+	"assignVariableObjectId": -1,
+	"assignVariableQualifierId": -1,
+	"assignVariableId": -1,
+	"randomMin": 0,
+	"randomMax": 100,
+	"assignScript": "",
+	"useCoffeeScript": false,
+	"javaScript": ""
+}
+} ], "10": [ {
+	"id": 1,
+	"commandType": 18,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffectRemove": {
+	"removeBit": 4095,
+	"duration300": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 2 },
+							"objectSingleIdHash": { "1": 3, "6": 2 },
 					"folder": false
 						},
 				{
@@ -54627,302 +55163,13 @@
 							},
 							"scenePartList": [
 							{
-			"id": 2,
-			"name": "enemyOninion_patrol",
-			"partType": 0,
-			"layerIndex": 0,
-			"locked": false,
-			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
-
-	"objectId": 6,
-	"initialActionId": -1,
-	"initialDisplayDirectionFlag": true,
-	"initialDisplayDirection": 90.000000,
-	"x": 1469,
-	"y": 304,
-	"scalingX": 100,
-	"scalingY": 100,
-	"rotation": 0,
-	"courseScenePartId": -1,
-	"courseStartPointId": -1,
-	"commonActionCommandListObject": { "1": [ {
-	"id": 5,
-	"commandType": 0,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"templateMove": {
-	"moveType": 4,
-
-"horizontalMoveStartRight": false,
-
-"horizontalMoveDuration300": 300,
-
-"horizontalInfinite": false,
-
-"verticalMoveStartDown": false,
-
-"verticalMoveDuration300": 300,
-
-"verticalInfinite": false,
-
-"randomMoveDuration300": 300,
-
-"randomMoveStop300": 300,
-
-"nearObjectGroup":0,
-
-"nearObjectLockedObjectPrior":true,
-
-"nearPlayerLockedPlayerPrior": true,
-
-"apartNearObjectGroup":0,
-
-"apartNearObjectLockedObjectPrior": false,
-
-"apartNearPlayerLockedPlayerPrior": false,
-
-"fallFromStep": true,
-
-"ignoreOtherObjectWallArea": false,
-
-"ignoreWall": false
-}
-}, {
-	"id": 4,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 15,
-	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": true,
-    "moveDistance": 48,
-    "reverse": true
-}
-
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 240,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": -2,
-	"qualifierId": -1,
-	"actionId": 5
-}
-} ], "2": [ {
-	"id": 2,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 4,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 58,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 0,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 90
-}
-}, {
-	"id": 3,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 150,
-	"stopGame": false
-}
-}, {
-	"id": 5,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 11,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 100,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 30,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 0
-}
-}, {
-	"id": 6,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 9,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 100,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 30,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 196,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 0
-}
-}, {
-	"id": 4,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 150,
-	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 10,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"disappear": {}
-} ] },
-	"actionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": false,
-    "moveDistance": 0,
-    "reverse": false
-}
-
-} ], "2": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 37,
-	"variableAssignOperator": 2,
-	"variableAssignValueType": 0,
-	"assignValue": 180.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "5": [ {
-	"id": 2,
-	"commandType": 0,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"templateMove": {
-	"moveType": 4,
-
-"horizontalMoveStartRight": false,
-
-"horizontalMoveDuration300": 300,
-
-"horizontalInfinite": false,
-
-"verticalMoveStartDown": false,
-
-"verticalMoveDuration300": 300,
-
-"verticalInfinite": false,
-
-"randomMoveDuration300": 300,
-
-"randomMoveStop300": 300,
-
-"nearObjectGroup":0,
-
-"nearObjectLockedObjectPrior":true,
-
-"nearPlayerLockedPlayerPrior": true,
-
-"apartNearObjectGroup":0,
-
-"apartNearObjectLockedObjectPrior": false,
-
-"apartNearPlayerLockedPlayerPrior": false,
-
-"fallFromStep": true,
-
-"ignoreOtherObjectWallArea": false,
-
-"ignoreWall": false
-}
-} ], "6": [  ], "7": [  ] },
-	"disappearActionCommandList": [  ]
-,
-			"folder": false
-		},
-							{
 			"id": 3,
 			"name": "enemyOninion_patrol1",
 			"partType": 0,
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -55211,7 +55458,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -55500,7 +55747,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -55789,7 +56036,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 5,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -56078,7 +56325,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 6,
+			"priority": 5,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -56367,7 +56614,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 7,
+			"priority": 6,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -56656,7 +56903,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 8,
+			"priority": 7,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -56945,7 +57192,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 9,
+			"priority": 8,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -57234,7 +57481,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 10,
+			"priority": 9,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -57523,7 +57770,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 11,
+			"priority": 10,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -57812,7 +58059,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 12,
+			"priority": 11,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -58124,9 +58371,249 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "enemyBow",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 12,
+			"dispPriority": 0,
+
+	"objectId": 22,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 1423,
+	"y": 264,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "2": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ], "3": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 2 },
+							"objectSingleIdHash": { "6": 3, "22": 2 },
 					"folder": false
 						},
 				{
@@ -73477,9 +73964,249 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "enemyBow",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 2,
+			"dispPriority": 0,
+
+	"objectId": 22,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 61,
+	"y": 120,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "2": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 48,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ], "3": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [  ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 2 },
+							"objectSingleIdHash": { "6": 2, "22": 3 },
 					"folder": false
 						}
 	]
@@ -74071,8 +74798,8 @@
 "tileAnimation": [ [ 1, 1, 3 ] ],
 "memo": "",
 "gimmickDescription": "",
-"playerMoveType": 1,
-"tileAttackAreaTouched": false,
+"playerMoveType": 0,
+"tileAttackAreaTouched": true,
 "timePassed": false,
 "passedTime": 3,
 "switchVariableCondition": true,
@@ -76624,6 +77351,24 @@
 	"jumpSpeed": 20,
 	"turnSpeed": 20,
 	"objCommandList": [ {
+	"id": 7,
+	"commandType": 8,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"attackSetting": {
+	"attackChange": 100,
+	"hitObjectFlag": false,
+	"playerAttackArea": false,
+	"enemyAttackArea": false,
+	"objectGroupBit": 0,
+	"hitTileFlag": true,
+	"tileAttackArea": true,
+	"tileGroupBit": 1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0
+}
+}, {
 	"id": 3,
 	"commandType": 31,
 	"ignored": false,
@@ -82913,15 +83658,6 @@
 	"wait": {
 	"duration300": 3,
 	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 9,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"bulletFire": {
-	"bulletId": 2,
-	"connectId": -1
 }
 } ],
 	"memo": "",
