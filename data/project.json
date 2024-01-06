@@ -100492,9 +100492,9 @@
 					"areaSettingList": [ {
 	"sceneId": 2,
 	"layerIndex": 0,
-	"x": 941,
+	"x": 952,
 	"y": 133,
-	"width": 20,
+	"width": 16,
 	"height": 155,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
@@ -100502,9 +100502,9 @@
 }, {
 	"sceneId": 9,
 	"layerIndex": 0,
-	"x": 0,
+	"x": -8,
 	"y": 133,
-	"width": 20,
+	"width": 16,
 	"height": 155,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
@@ -100927,7 +100927,7 @@
 	"x": 632,
 	"y": 0,
 	"width": 16,
-	"height": 95,
+	"height": 96,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
 	"rePortalDirectionBit": 64
@@ -100937,7 +100937,7 @@
 	"x": -8,
 	"y": 176,
 	"width": 16,
-	"height": 95,
+	"height": 96,
 	"keepHorzPosition": false,
 	"keepVertPosition": true,
 	"rePortalDirectionBit": 16

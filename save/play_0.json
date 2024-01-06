@@ -35,7 +35,7 @@
             "objectId": 1,
             "instanceId": 3,
             "layerId": 1,
-            "px": 101.0,
+            "px": 100.0,
             "py": 112.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -157,7 +157,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 101.0,
+                        "value": 100.0,
                         "type": 1
                     },
                     {
@@ -321,7 +321,7 @@
             "objectId": 1,
             "instanceId": 3,
             "layerId": 1,
-            "px": 101.0,
+            "px": 100.0,
             "py": 112.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -443,7 +443,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 101.0,
+                        "value": 100.0,
                         "type": 1
                     },
                     {
@@ -864,7 +864,7 @@
             "objectId": 6,
             "instanceId": 4,
             "layerId": 1,
-            "px": 241.39999389648438,
+            "px": 243.1999969482422,
             "py": 112.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -982,7 +982,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 241.0,
+                        "value": 243.0,
                         "type": 1
                     },
                     {
@@ -1007,7 +1007,7 @@
                     },
                     {
                         "id": 11,
-                        "value": 0.0
+                        "value": 1.0
                     },
                     {
                         "id": 12,
@@ -1119,7 +1119,7 @@
             "objectId": 6,
             "instanceId": 6,
             "layerId": 1,
-            "px": 298.6000061035156,
+            "px": 296.79998779296877,
             "py": 80.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -1128,7 +1128,7 @@
             "scenePartsId": 6,
             "initialActionId": 1,
             "prevActionId": 1,
-            "directionNo": 4,
+            "directionNo": -1,
             "moveDirection": [
                 0.0,
                 0.0
@@ -1237,7 +1237,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 298.0,
+                        "value": 296.0,
                         "type": 1
                     },
                     {
@@ -1262,7 +1262,7 @@
                     },
                     {
                         "id": 11,
-                        "value": 0.0
+                        "value": -1.0
                     },
                     {
                         "id": 12,
@@ -1374,7 +1374,7 @@
             "objectId": 6,
             "instanceId": 7,
             "layerId": 1,
-            "px": 393.29998779296877,
+            "px": 379.79998779296877,
             "py": 112.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -1383,7 +1383,7 @@
             "scenePartsId": 7,
             "initialActionId": 1,
             "prevActionId": 1,
-            "directionNo": 6,
+            "directionNo": -1,
             "moveDirection": [
                 0.0,
                 0.0
@@ -1492,7 +1492,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 393.0,
+                        "value": 379.0,
                         "type": 1
                     },
                     {
@@ -1502,7 +1502,7 @@
                     },
                     {
                         "id": 37,
-                        "value": 90.0,
+                        "value": 270.0,
                         "type": 1
                     },
                     {
@@ -1517,7 +1517,7 @@
                     },
                     {
                         "id": 11,
-                        "value": 0.0
+                        "value": -1.0
                     },
                     {
                         "id": 12,
@@ -1629,7 +1629,7 @@
             "objectId": 4,
             "instanceId": 10,
             "layerId": 1,
-            "px": 113.0,
+            "px": 112.0,
             "py": 116.0,
             "sx": 1.0,
             "sy": 1.0,
@@ -1751,7 +1751,7 @@
                     },
                     {
                         "id": 9,
-                        "value": 113.0,
+                        "value": 112.0,
                         "type": 1
                     },
                     {
@@ -2516,11 +2516,11 @@
             },
             {
                 "id": 22,
-                "value": -1.0
+                "value": 240.0
             },
             {
                 "id": 23,
-                "value": -1.0
+                "value": 93.0
             },
             {
                 "id": 24,
