@@ -21543,7 +21543,7 @@
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 90.000000,
-	"x": 144,
+	"x": 142,
 	"y": 136,
 	"scalingX": 100,
 	"scalingY": 100,
@@ -21700,8 +21700,8 @@
 	"moveType": 1,
 	"angle": 0,
 	"moveDistance": 128,
-	"posX": 0,
-	"posY": 0,
+	"posX": 171,
+	"posY": 145,
 	"moveInDisplayCoordinates": false,
 	"followCameraMoving": false,
 	"centerObjectId": -1,
@@ -46791,37 +46791,6 @@
 			"folder": false
 		},
 							{
-			"id": 1,
-			"name": "Camera",
-			"partType": 2,
-			"layerIndex": -1,
-			"locked": false,
-			"visible": true,
-			"priority": 0,
-			"dispPriority": 0,
-
-	"othersType": 0,
-	"camera": {
-	"initialPlayerPosition": false,
-	"x": 0,
-	"y": 0,
-	"width": 320,
-	"height": 180,
-	"followTargetType": 0,
-	"objectId": -1,
-	"courseScenePartId": -1,
-	"startPointId": -1,
-	"scrollToShowAllPlayers": false,
-	"scaleToShowAllPlayers": false,
-	"maxScaling": 100.000000,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1
-}
-,
-			"folder": false
-		},
-							{
 			"id": 3,
 			"name": "enemyBow_lookingAtPlayer",
 			"partType": 0,
@@ -47139,6 +47108,37 @@
 }
 } ] },
 	"disappearActionCommandList": [  ]
+,
+			"folder": false
+		},
+							{
+			"id": 1,
+			"name": "Camera",
+			"partType": 2,
+			"layerIndex": -1,
+			"locked": false,
+			"visible": true,
+			"priority": 0,
+			"dispPriority": 0,
+
+	"othersType": 0,
+	"camera": {
+	"initialPlayerPosition": false,
+	"x": 0,
+	"y": 0,
+	"width": 320,
+	"height": 180,
+	"followTargetType": 0,
+	"objectId": -1,
+	"courseScenePartId": -1,
+	"startPointId": -1,
+	"scrollToShowAllPlayers": false,
+	"scaleToShowAllPlayers": false,
+	"maxScaling": 100.000000,
+	"switchObjectId": -1,
+	"switchQualifierId": -1,
+	"switchId": -1
+}
 ,
 			"folder": false
 		}
@@ -82535,7 +82535,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ 24, -24 ], [ 24, -121 ] ],
+	"coordList": [ [ 23, -24 ], [ 23, -120 ] ],
 	"endPointFactor": [ 553, 2186 ],
 	"visible": true,
 	"num": 0,
@@ -82564,7 +82564,7 @@
 }
 } ],
 	"memo": "",
-	"coordList": [ [ -45, -121 ], [ -45, -24 ] ],
+	"coordList": [ [ -45, -120 ], [ -45, -24 ] ],
 	"endPointFactor": [ 2556, 354 ],
 	"visible": true,
 	"num": 0,
@@ -101407,7 +101407,7 @@
 	"rePortalDirectionBit": 16
 } ],
 					"moveSettingList": [ {
-	"preMoveEffect": 9,
+	"preMoveEffect": 1,
 	"preMoveDuration300": 150,
 	"preMoveBgmChangeType": 2,
 	"preMoveBgmFadeout": false,
@@ -101445,7 +101445,7 @@
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ]
 }, {
-	"preMoveEffect": 10,
+	"preMoveEffect": 1,
 	"preMoveDuration300": 150,
 	"preMoveBgmChangeType": 2,
 	"preMoveBgmFadeout": false,
