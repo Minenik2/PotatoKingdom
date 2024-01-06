@@ -77698,7 +77698,7 @@
 	"objCommandList": [ {
 	"id": 2,
 	"commandType": 4,
-	"ignored": false,
+	"ignored": true,
 	"instanceConfigurable": false,
 	"objectMove": {
 	"moveType": 1,
