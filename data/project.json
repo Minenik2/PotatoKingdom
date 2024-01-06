@@ -3858,7 +3858,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 1,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 1,
@@ -4212,8 +4212,8 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
-			"dispPriority": 0,
+			"priority": 0,
+			"dispPriority": -1,
 
 	"objectId": 10,
 	"initialActionId": -1,
@@ -5282,7 +5282,7 @@
 			"layerIndex": -1,
 			"locked": false,
 			"visible": true,
-			"priority": 0,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"othersType": 0,
@@ -20366,8 +20366,6 @@
 	"defocus": 100,
 	"chromaticAberration": 100,
 	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 0,
 	"imageId": -1,
 	"imageTransparency": 0,
 	"imagePlacement": 0,
@@ -21536,8 +21534,8 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 1,
-			"dispPriority": 0,
+			"priority": 0,
+			"dispPriority": -1,
 
 	"objectId": 10,
 	"initialActionId": -1,
@@ -21701,7 +21699,7 @@
 	"angle": 0,
 	"moveDistance": 128,
 	"posX": 171,
-	"posY": 145,
+	"posY": 144,
 	"moveInDisplayCoordinates": false,
 	"followCameraMoving": false,
 	"centerObjectId": -1,
@@ -21739,7 +21737,7 @@
 			"layerIndex": -1,
 			"locked": false,
 			"visible": true,
-			"priority": 0,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"othersType": 0,
@@ -35763,7 +35761,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 1,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -36052,7 +36050,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 2,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -36341,7 +36339,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 4,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -36630,7 +36628,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 5,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -36919,7 +36917,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 5,
+			"priority": 6,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -37208,7 +37206,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 6,
+			"priority": 7,
 			"dispPriority": 0,
 
 	"objectId": 3,
@@ -37460,7 +37458,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 7,
+			"priority": 8,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -37749,7 +37747,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 8,
+			"priority": 9,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -38038,7 +38036,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 9,
+			"priority": 10,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -38327,7 +38325,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 10,
+			"priority": 11,
 			"dispPriority": 0,
 
 	"objectId": 3,
@@ -38579,7 +38577,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 11,
+			"priority": 12,
 			"dispPriority": 0,
 
 	"objectId": 22,
@@ -38819,8 +38817,8 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 12,
-			"dispPriority": 0,
+			"priority": 0,
+			"dispPriority": -1,
 
 	"objectId": 10,
 	"initialActionId": -1,
@@ -39022,7 +39020,7 @@
 			"layerIndex": -1,
 			"locked": false,
 			"visible": true,
-			"priority": 0,
+			"priority": 1,
 			"dispPriority": 0,
 
 	"othersType": 0,
