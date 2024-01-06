@@ -1,10 +1,11 @@
 {
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"gameIcon": "",
 	"gameIconSrcFilename": "",
 	"gameType": 0,
 	"playerCount": 1,
 	"mode30Fps": false,
+	"fix60FpsMode": false,
 	"tileWidth": 16,
 	"tileHeight": 16,
 	"screenWidth": 320,
@@ -20,7 +21,8 @@
 	"nxSoftResetKeyConfig": 0,
 	"nxReturnToLauncherKeyConfig": 0,
 	"nxMenuBarVisibleKeyConfig": 0,
-	"nxPlayerVersion": "1.0.5",
+	"nxSupportForSingleJoyCon": true,
+	"nxPlayerVersion": "1.0.6",
 	"gameVersion": "1.0",
 	"magnifyWindow":true,
 	"windowMagnification":4,
@@ -560,7 +562,7 @@
 	"flowLinkIdList": [  ]
 }, {
 	"id": 1,
-	"typeIdPair": [ [0, 1, -1], [0, 9, -1] ],
+	"typeIdPair": [ [0, 1, -1], [0, 26, -1] ],
 	"linkType": 0,
 	"priority": 0,
 	"startPointGroup": 0,
@@ -596,7 +598,7 @@
 	"postMoveSwitchVariableAssignList": [  ],
 	"postMoveExecuteObjectAction": false,
 	"postMoveObjectActionList": [  ],
-	"coordList": [ [ -170, -24 ], [ 864, 334 ] ],
+	"coordList": [ [ -168, -48 ], [ -120, -48 ] ],
 	"endPointFactor": [ -1, -1 ],
 	"visible": true,
 	"num": 0,
@@ -688,10 +690,10 @@
 	"initialActionId": -1,
 	"initialDisplayDirectionFlag": false,
 	"initialDisplayDirection": 90.000000,
-	"x": 54,
-	"y": -8,
-	"scalingX": 200,
-	"scalingY": 200,
+	"x": 45,
+	"y": 5,
+	"scalingX": 100,
+	"scalingY": 100,
 	"rotation": 0,
 	"courseScenePartId": -1,
 	"courseStartPointId": -1,
@@ -2296,7 +2298,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "8": 3, "15": 4, "17": 5, "2": 2, "18": 6, "19": 7, "20": 8, "21": 9 },
+					"objectSingleIdHash": { "15": 4, "8": 3, "21": 9, "20": 8, "17": 5, "19": 7, "2": 2, "18": 6 },
 			"folder": false
 				},
 				{
@@ -5305,7 +5307,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "10": 5, "1": 3, "6": 4 },
+							"objectSingleIdHash": { "10": 5, "6": 4, "1": 3 },
 					"folder": false
 						},
 				{
@@ -7723,7 +7725,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "10": 5, "1": 3, "3": 2, "22": 4 },
+							"objectSingleIdHash": { "10": 5, "1": 3, "22": 4, "3": 2 },
 					"folder": false
 						},
 				{
@@ -11444,7 +11446,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "3": 2, "6": 3 },
+							"objectSingleIdHash": { "6": 3, "3": 2 },
 					"folder": false
 						},
 				{
@@ -26077,7 +26079,7 @@
 			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "1": 2, "6": 3 },
+							"objectSingleIdHash": { "6": 3, "1": 2 },
 					"folder": false
 						},
 				{
@@ -39043,403 +39045,9 @@
 }
 ,
 			"folder": false
-		},
-							{
-			"id": 14,
-			"name": "Player",
-			"partType": 0,
-			"layerIndex": 0,
-			"locked": false,
-			"visible": true,
-			"priority": 13,
-			"dispPriority": 0,
-
-	"objectId": 1,
-	"initialActionId": -1,
-	"initialDisplayDirectionFlag": false,
-	"initialDisplayDirection": 90.000000,
-	"x": 226,
-	"y": 263,
-	"scalingX": 100,
-	"scalingY": 100,
-	"rotation": 0,
-	"courseScenePartId": -1,
-	"courseStartPointId": -1,
-	"commonActionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": true,
-    "moveDistance": 48,
-    "reverse": true
-}
-
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 120,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": -2,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ], "2": [ {
-	"id": 4,
-	"commandType": 25,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"soundPlay": {
-	"soundType": 0,
-	"seId": 2,
-	"voiceId": -1,
-	"bgmId": -1,
-	"loop": false,
-	"fadein": false,
-	"duration300": 300,
-	"specifyAudioPosition": false,
-	"audioPositionVariableObjectId": -1,
-	"audioPositionVariableQualifierId": -1,
-	"audioPositionVariableId": -1,
-	"volume": 100,
-	"pan": 0,
-	"pitch": 0
-}
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 90,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 9,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"bulletFire": {
-	"bulletId": 1,
-	"connectId": 4
-}
-}, {
-	"id": 1,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": 1,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ], "3": [ {
-	"id": 6,
-	"commandType": 33,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"gameSpeedChange": {
-	"gameSpeed": 0,
-	"duration300": 300,
-	"durationUnlimited": false,
-	"targetObject": true,
-	"targetEffect": true,
-	"targetTile": true,
-	"targetMenu": true,
-	"targettingType": 0,
-	"targetObjectType": 0,
-	"targetObjectGroup": -1,
-	"targetObjectId": -1,
-	"targetQualifierId": -1,
-	"excludePlayerObject": false,
-	"excludeEnemyObject": false,
-	"excludeObjectGroupBit": 0
-}
-}, {
-	"id": 5,
-	"commandType": 51,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"soundStop": {
-	"soundType": 2,
-	"seId": -1,
-	"voiceId": -1,
-	"bgmId": -1,
-	"fadeout": true,
-	"duration300": 150,
-	"stopOnlySoundByThisObject": false
-}
-}, {
-	"id": 4,
-	"commandType": 25,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"soundPlay": {
-	"soundType": 0,
-	"seId": 1,
-	"voiceId": -1,
-	"bgmId": -1,
-	"loop": false,
-	"fadein": false,
-	"duration300": 300,
-	"specifyAudioPosition": false,
-	"audioPositionVariableObjectId": -1,
-	"audioPositionVariableQualifierId": -1,
-	"audioPositionVariableId": -1,
-	"volume": 100,
-	"pan": 0,
-	"pitch": 0
-}
-}, {
-	"id": 1,
-	"commandType": 19,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"sceneEffect": {
-	"layerIndex": -1,
-	"filterEffect": {
-	"effectType": 7,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 100,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 0,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 150
-}
-}
-}, {
-	"id": 3,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 3,
-	"stopGame": false
-}
-}, {
-	"id": 2,
-	"commandType": 55,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"loadFile": {
-	"projectCommonVariables": true,
-	"projectCommonSwitches": true,
-	"sceneAtTimeOfSave": true,
-	"objectsStatesInSceneAtTimeOfSave": true,
-	"effectType": -1,
-	"duration300": 300
-}
-} ], "4": [ {
-	"id": 7,
-	"commandType": 8,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"attackSetting": {
-	"attackChange": 100,
-	"hitObjectFlag": false,
-	"playerAttackArea": false,
-	"enemyAttackArea": false,
-	"objectGroupBit": 0,
-	"hitTileFlag": true,
-	"tileAttackArea": true,
-	"tileGroupBit": 1,
-	"attributeType": 0,
-	"attributePresetId": 1,
-	"attributeValue": 0
-}
-}, {
-	"id": 6,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 90,
-	"stopGame": false
-}
-}, {
-	"id": 4,
-	"commandType": 25,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"soundPlay": {
-	"soundType": 0,
-	"seId": 2,
-	"voiceId": -1,
-	"bgmId": -1,
-	"loop": false,
-	"fadein": false,
-	"duration300": 300,
-	"specifyAudioPosition": false,
-	"audioPositionVariableObjectId": -1,
-	"audioPositionVariableQualifierId": -1,
-	"audioPositionVariableId": -1,
-	"volume": 100,
-	"pan": 0,
-	"pitch": 0
-}
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 300,
-	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": 1,
-	"qualifierId": -1,
-	"actionId": 1
-}
-} ] },
-	"actionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "2": [  ], "3": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "4": [  ], "5": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 0,
-	"variableAssignValueType": 0,
-	"assignValue": 0.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "7": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 2001,
-	"variableAssignOperator": 1,
-	"variableAssignValueType": 0,
-	"assignValue": 1.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "10": [ {
-	"id": 1,
-	"commandType": 18,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffectRemove": {
-	"removeBit": 4095,
-	"duration300": 0
-}
-} ] },
-	"disappearActionCommandList": [  ]
-,
-			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "10": 13, "1": 14, "3": 9, "6": 2, "22": 3 },
+							"objectSingleIdHash": { "10": 13, "6": 2, "22": 3, "3": 9 },
 					"folder": false
 						},
 				{
@@ -46605,302 +46213,13 @@
 			"folder": false
 		},
 							{
-			"id": 3,
-			"name": "enemyOninion_patrol1",
-			"partType": 0,
-			"layerIndex": 0,
-			"locked": false,
-			"visible": true,
-			"priority": 2,
-			"dispPriority": 0,
-
-	"objectId": 6,
-	"initialActionId": -1,
-	"initialDisplayDirectionFlag": true,
-	"initialDisplayDirection": 90.000000,
-	"x": 50,
-	"y": 112,
-	"scalingX": 100,
-	"scalingY": 100,
-	"rotation": 0,
-	"courseScenePartId": -1,
-	"courseStartPointId": -1,
-	"commonActionCommandListObject": { "1": [ {
-	"id": 5,
-	"commandType": 0,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"templateMove": {
-	"moveType": 4,
-
-"horizontalMoveStartRight": false,
-
-"horizontalMoveDuration300": 300,
-
-"horizontalInfinite": false,
-
-"verticalMoveStartDown": false,
-
-"verticalMoveDuration300": 300,
-
-"verticalInfinite": false,
-
-"randomMoveDuration300": 300,
-
-"randomMoveStop300": 300,
-
-"nearObjectGroup":0,
-
-"nearObjectLockedObjectPrior":true,
-
-"nearPlayerLockedPlayerPrior": true,
-
-"apartNearObjectGroup":0,
-
-"apartNearObjectLockedObjectPrior": false,
-
-"apartNearPlayerLockedPlayerPrior": false,
-
-"fallFromStep": true,
-
-"ignoreOtherObjectWallArea": false,
-
-"ignoreWall": false
-}
-}, {
-	"id": 4,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 15,
-	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": true,
-    "moveDistance": 48,
-    "reverse": true
-}
-
-}, {
-	"id": 2,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 240,
-	"stopGame": false
-}
-}, {
-	"id": 3,
-	"commandType": 40,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"actionExec": {
-	"objectId": -2,
-	"qualifierId": -1,
-	"actionId": 5
-}
-} ], "2": [ {
-	"id": 2,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 4,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 58,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 0,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 90
-}
-}, {
-	"id": 3,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 150,
-	"stopGame": false
-}
-}, {
-	"id": 5,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 11,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 100,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 30,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 255,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 0
-}
-}, {
-	"id": 6,
-	"commandType": 17,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"objectFilterEffect": {
-	"effectType": 9,
-	"noise": 100,
-	"mosaic": 100,
-	"monochrome": 100,
-	"sepia": 100,
-	"negaPosiReverse": 100,
-	"defocus": 100,
-	"chromaticAberration": 100,
-	"darkness": 100,
-	"transparency": 100,
-	"blinkInterval300": 30,
-	"imageId": -1,
-	"imageTransparency": 0,
-	"imagePlacement": 0,
-	"fillA": 196,
-	"fillR": 255,
-	"fillG": 255,
-	"fillB": 255,
-	"duration300": 0
-}
-}, {
-	"id": 4,
-	"commandType": 34,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"wait": {
-	"duration300": 150,
-	"stopGame": false
-}
-}, {
-	"id": 1,
-	"commandType": 10,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"disappear": {}
-} ] },
-	"actionCommandListObject": { "1": [ {
-	"id": 1,
-	"commandType": 54,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"displayDirectionMove": {
-    "distanceOverride": false,
-    "moveDistance": 0,
-    "reverse": false
-}
-
-} ], "2": [ {
-	"id": 1,
-	"commandType": 31,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"switchVariableChange": {
-	"swtch": false,
-	"switchObjectId": -1,
-	"switchQualifierId": -1,
-	"switchId": -1,
-	"switchValue": 0,
-	"variableObjectId": -2,
-	"variableQualifierId": -1,
-	"variableId": 37,
-	"variableAssignOperator": 2,
-	"variableAssignValueType": 0,
-	"assignValue": 180.000000,
-	"assignVariableObjectId": -1,
-	"assignVariableQualifierId": -1,
-	"assignVariableId": -1,
-	"randomMin": 0,
-	"randomMax": 100,
-	"assignScript": "",
-	"useCoffeeScript": false,
-	"javaScript": ""
-}
-} ], "5": [ {
-	"id": 2,
-	"commandType": 0,
-	"ignored": false,
-	"instanceConfigurable": false,
-	"templateMove": {
-	"moveType": 4,
-
-"horizontalMoveStartRight": false,
-
-"horizontalMoveDuration300": 300,
-
-"horizontalInfinite": false,
-
-"verticalMoveStartDown": false,
-
-"verticalMoveDuration300": 300,
-
-"verticalInfinite": false,
-
-"randomMoveDuration300": 300,
-
-"randomMoveStop300": 300,
-
-"nearObjectGroup":0,
-
-"nearObjectLockedObjectPrior":true,
-
-"nearPlayerLockedPlayerPrior": true,
-
-"apartNearObjectGroup":0,
-
-"apartNearObjectLockedObjectPrior": false,
-
-"apartNearPlayerLockedPlayerPrior": false,
-
-"fallFromStep": true,
-
-"ignoreOtherObjectWallArea": false,
-
-"ignoreWall": false
-}
-} ], "6": [  ], "7": [  ] },
-	"disappearActionCommandList": [  ]
-,
-			"folder": false
-		},
-							{
 			"id": 4,
 			"name": "enemyOninion_patrol2",
 			"partType": 0,
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 3,
+			"priority": 2,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -47189,7 +46508,7 @@
 			"layerIndex": 0,
 			"locked": false,
 			"visible": true,
-			"priority": 4,
+			"priority": 3,
 			"dispPriority": 0,
 
 	"objectId": 6,
@@ -47501,9 +46820,330 @@
 }
 ,
 			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "enemyBow_lookingAtPlayer",
+			"partType": 0,
+			"layerIndex": 0,
+			"locked": false,
+			"visible": true,
+			"priority": 4,
+			"dispPriority": 0,
+
+	"objectId": 26,
+	"initialActionId": -1,
+	"initialDisplayDirectionFlag": true,
+	"initialDisplayDirection": 90.000000,
+	"x": 54,
+	"y": 104,
+	"scalingX": 100,
+	"scalingY": 100,
+	"rotation": 0,
+	"courseScenePartId": -1,
+	"courseStartPointId": -1,
+	"commonActionCommandListObject": { "2": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 24,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ], "3": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ] },
+	"actionCommandListObject": { "1": [ {
+	"id": 1,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":false,
+
+"nearPlayerLockedPlayerPrior": false,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+} ], "2": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+}, {
+	"id": 5,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 90,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ] },
+	"disappearActionCommandList": [  ]
+,
+			"folder": false
 		}
 							],
-							"objectSingleIdHash": { "6": 2 },
+							"objectSingleIdHash": { "26": 3, "6": 2 },
 					"folder": false
 						},
 				{
@@ -74643,7 +74283,7 @@
 			"folder": false
 		}
 					],
-					"objectSingleIdHash": { "12": 2, "13": 3, "14": 4 },
+					"objectSingleIdHash": { "14": 4, "13": 3, "12": 2 },
 			"folder": false
 				}
 	],
@@ -74757,8 +74397,8 @@
 		{"id":23,"name":"Enemy",			"folder": true, 	"children": [
 {"id":22,"name":"enemyOnion","filename":"img/022.png","srcFilename":"E:/potato kingdom/SlowEasyEnemy1.png","horzDivCount":1,"vertDivCount":1,					"folder": false},
 {"id":14,"name":"onionEnemyMovement","filename":"img/014.png","srcFilename":"E:/potato kingdom/onionEnemyMovement.png","horzDivCount":4,"vertDivCount":3,					"folder": false},
-{"id":53,"name":"bow enemy-Sheet","filename":"img/053.png","srcFilename":"E:/enemyBow2-Sheet.png","horzDivCount":3,"vertDivCount":2,					"folder": false},
-{"id":55,"name":"Bullet","filename":"img/055.png","srcFilename":"E:/Bullet.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
+{"id":53,"name":"enemyBow","filename":"img/053.png","srcFilename":"E:/enemyBow2-Sheet.png","horzDivCount":3,"vertDivCount":2,					"folder": false},
+{"id":55,"name":"enemyBow_arrow","filename":"img/055.png","srcFilename":"E:/Bullet.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]},
 		{"id":25,"name":"Tiles",			"folder": true, 	"children": [
 {"id":26,"name":"plainGrassTileset","filename":"img/026.png","srcFilename":"E:/potato kingdom/firstTileset.png","horzDivCount":9,"vertDivCount":5,					"folder": false},
@@ -74800,8 +74440,7 @@
 {"id":48,"name":"uiOptions-Sheet","filename":"img/048.png","srcFilename":"I:/Games/myGames/potatokingdom/uiOptions-Sheet.png","horzDivCount":1,"vertDivCount":11,					"folder": false},
 {"id":49,"name":"uiOptions-SheetNoArrow","filename":"img/049.png","srcFilename":"I:/Games/myGames/potatokingdom/uiOptions-SheetNoArrow.png","horzDivCount":1,"vertDivCount":1,					"folder": false}
 	]},
-		{"id":50,"name":"TownTree","filename":"img/050.png","srcFilename":"E:/TownTree.png","horzDivCount":1,"vertDivCount":1,			"folder": false},
-		{"id":54,"name":"bow enemy-Sheet(1)","filename":"img/054.png","srcFilename":"E:/bow enemy-Sheet.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
+		{"id":50,"name":"TownTree","filename":"img/050.png","srcFilename":"E:/TownTree.png","horzDivCount":1,"vertDivCount":1,			"folder": false}
 	],
 	"fontList": [
 				{
@@ -75402,7 +75041,7 @@
 	"switchList": [
 				{
 			"id": 1,
-			"name": "Reset",
+			"name": "Initialize Resources",
 			"initialValue": false,
 			"toBeSaved": true,
 			"memo": "",
@@ -75915,6 +75554,15 @@
 	"triggerType": 1,
 	"directionInputType": -1,
 	"directionBit": 0,
+	"condAnd": false,
+	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
 	"condAnd": true,
 	"acceptFrameCount": 7
 } ],
@@ -75997,8 +75645,17 @@
 	"triggerType": 1,
 	"directionInputType": -1,
 	"directionBit": 0,
-	"condAnd": true,
+	"condAnd": false,
 	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
+	"condAnd": true,
+	"acceptFrameCount": 1
 } ],
 	"linkConditionList": [ {
 	"id": 2,
@@ -76190,6 +75847,15 @@
 	"triggerType": 1,
 	"directionInputType": -1,
 	"directionBit": 0,
+	"condAnd": false,
+	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
 	"condAnd": true,
 	"acceptFrameCount": 7
 } ],
@@ -76263,6 +75929,15 @@
 	"triggerType": 1,
 	"directionInputType": -1,
 	"directionBit": 0,
+	"condAnd": false,
+	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
+	"directionBit": 0,
 	"condAnd": true,
 	"acceptFrameCount": 7
 } ],
@@ -76313,6 +75988,15 @@
 	"operationKeyId": 1,
 	"triggerType": 1,
 	"directionInputType": -1,
+	"directionBit": 0,
+	"condAnd": false,
+	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
 	"directionBit": 0,
 	"condAnd": true,
 	"acceptFrameCount": 7
@@ -76424,6 +76108,15 @@
 	"operationKeyId": 1,
 	"triggerType": 1,
 	"directionInputType": -1,
+	"directionBit": 0,
+	"condAnd": false,
+	"acceptFrameCount": 7
+}, {
+	"id": 2,
+	"useKey": true,
+	"operationKeyId": 9,
+	"triggerType": 1,
+	"directionInputType": 0,
 	"directionBit": 0,
 	"condAnd": true,
 	"acceptFrameCount": 7
@@ -81602,6 +81295,1277 @@
 	"memo": "",
 	"coordList": [ [ -49, -120 ], [ -47, -24 ] ],
 	"endPointFactor": [ 2577, 133 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+} ],
+					"actionGroupList": [  ],
+					"memo": "",
+					"testplayOnly": false,
+					"appearCondition": 1,
+					"appearConditionTileCount": 0,
+					"reappearCondition": 3,
+					"reappearConditionTileCount": 0,
+					"hp": 5,
+					"maxHp": 5,
+					"minAttack": 1,
+					"maxAttack": 1,
+					"initialDamageRate": 100,
+					"damageVariationValue": 0,
+					"critical": false,
+					"criticalRatio": 200,
+					"criticalIncidence": 5,
+					"moveType": 0,
+					"normalAccelMove": false,
+					"tankAccelMove": false,
+					"carAccelMove": false,
+					"upMoveKeyId": -1,
+					"downMoveKeyId": -1,
+					"leftMoveKeyId": -1,
+					"rightMoveKeyId": -1,
+					"forwardMoveKeyId": -1,
+					"backwardMoveKeyId": -1,
+					"leftTurnKeyId": -1,
+					"rightTurnKeyId": -1,
+					"slipOnSlope": false,
+					"diagonalMoveWithPolar": false,
+					"moveAroundWithinDots": false,
+					"dotsToMoveAround": 0,
+					"horizontalMove": 1.000000,
+					"verticalMove": 1.000000,
+					"horizontalAccel": 1.000000,
+					"horizontalMaxMove": 1.000000,
+					"horizontalDecel": 1.000000,
+					"verticalAccel": 1.000000,
+					"verticalMaxMove": 1.000000,
+					"verticalDecel": 1.000000,
+					"forwardMove": 1.000000,
+					"backwardMove": 1.000000,
+					"forwardAccel": 1.000000,
+					"forwardMaxMove": 1.000000,
+					"forwardDecel": 1.000000,
+					"backwardAccel": 1.000000,
+					"backwardMaxMove": 1.000000,
+					"backwardDecel": 1.000000,
+					"leftTurn": 1.000000,
+					"rightTurn": 1.000000,
+					"jumpInitialSpeed": 1.000000,
+					"gravity": 1.000000,
+					"movableWhenJumping": true,
+					"movableWhenFalling": true,
+					"fallOnCollideWithWall": true,
+					"fallOnCollideWithHitbox": true,
+					"jumpInputOperationKeyId": -1,
+					"affectInputDuration300": 0,
+					"limitFalldownAmount": true,
+					"maxFalldownAmount": 16.000000,
+					"invincibleOnDamaged": true,
+					"invincibleDuration300": 120,
+					"winkWhenInvincible": true,
+					"winkInterval300": 30,
+					"afterimage": false,
+					"afterimageCount": 0,
+					"afterimageInterval": 0.000000,
+					"afterimageDuration300": 0,
+					"fillAfterimage": false,
+					"fillAfterimageA": 255,
+					"fillAfterimageR": 128,
+					"fillAfterimageG": 0,
+					"fillAfterimageB": 255,
+					"fadeoutAfterimage": false,
+					"fadeoutAfterimageStart300": 0,
+					"useAnimationAfterimage": false,
+					"afterimageAnimationId": -1,
+					"followType": 1,
+					"followPrecision": 100,
+					"followIntervalByTime300": 0,
+					"followIntervalByLocusLength": 0,
+					"childDamageType": 1,
+					"takeOverDamageRateToParent": false,
+					"unattackableToParent": true,
+					"takeoverDispDirection": true,
+					"takeoverAngle": true,
+					"takeoverScaling": true,
+					"takeoverIntensity": true,
+					"disappearWhenHp0": false,
+					"disappearWhenOutOfCamera": false,
+					"disappearCameraMarginTileCount": 2,
+					"fixedInCamera": false,
+					"pushedbackByObject": true,
+					"takeoverStatesAtSceneEnd": false,
+					"disappearSettingFlag": false,
+					"disappearSetting": {
+	"otherObjectDecrementHp": true,
+	"decrement": 0,
+	"targetObjectType": 1,
+	"targetObjectTypeByType": 0,
+	"targetObjectGroup": -1,
+	"targetObjectId": -3,
+	"damageRange": 0,
+	"cameraRangeAdjust": 0,
+	"objCommandList": [  ]
+},
+					"fireBulletSettingFlag": true,
+					"additionalDisplayList": [  ],
+					"fireBulletSettingList": [ {
+	"id": 1,
+	"name": "projectile",
+	"bulletObjectId": 23,
+	"bulletChild": false,
+	"fireBulletCount": 1,
+	"bulletInterval300": 300,
+	"dispBulletCount": 1,
+	"dispBulletUnlimited": true,
+	"initialBulletLocus": 1,
+	"nextBulletLocus": 0,
+	"setActionDirectionToFireObjectDirection": false,
+	"towardPlayer": false,
+	"towardEnemy": false,
+	"towardObjectGroupBit": 0,
+	"oneDirectionAngle": 0,
+	"oneDirectionSpreadRange": 0,
+	"oneDirectionSpreadType": 0,
+	"followLockedObjectPerformance": 0,
+	"followLockedObjectStartDelayStart300": 0,
+	"followLockedObjectStartDelayEnd300": 0,
+	"followObjectInsideCameraPerformance": 0,
+	"followObjectInsideCameraStartDelayStart300": 0,
+	"followObjectInsideCameraStartDelayEnd300": 0,
+	"followObjectInsideCameraTargetPlayer": false,
+	"followObjectInsideCameraTargetEnemy": false,
+	"followObjectInsideCameraTargetObjectGroupBit": 0,
+	"boomerangTurnDuration300": 300,
+	"boomerangDecelBeforeTurn": false,
+	"boomerangComebackPerformance": 0,
+	"boomerangTurnWhenTouchingWall": false,
+	"freeBulletGravityFlag": false,
+	"freeBulletGravity": 0,
+	"freeBulletMoveSpeedFlag": false,
+	"freeBulletMoveSpeed": 0
+} ],
+					"effectSettingFlag": false,
+					"effectSettingList": [  ],
+					"connectSettingFlag": false,
+					"connectSettingList": [  ],
+					"moveDispDirectionSettingFlag": false,
+					"moveDispDirectionSetting": {
+	"upOperationKeyId": -1,
+	"downOperationKeyId": -1,
+	"leftOperationKeyId": -1,
+	"rightOperationKeyId": -1,
+	"actionInfoList": [  ]
+},
+					"physicsSettingFlag": false,
+					"physicsSetting": {
+	"affectPhysics": false,
+	"physicsAffected": false,
+	"followConnectedPhysics": false,
+	"templateId": -1,
+	"density": 1000,
+	"mass": 1,
+	"friction": 1,
+	"repulsion": 0.5,
+	"nonCollisionGroup": [  ]
+},
+					"viewportLightSettingFlag": false,
+					"viewportLightSettingList": [  ],
+					"commonActionSettingFlag": true,
+					"commonActionSettingList": [ {
+	"id": 3,
+	"objActionLink": {
+	"id": 0,
+	"typeIdPair": [ [-1, -1, -1], [-1, -1, -1] ],
+	"linkType": -1,
+	"priority": 1,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 0,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 12,
+	"condAnd": true,
+	"notFlag": false,
+	"hpZero": {
+	"objectId": -2
+}
+} ],
+	"memo": "",
+	"coordList": [  ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+},
+	"objAction": {
+	"id": 5,
+	"name": "destroy",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 3,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": true,
+	"keepDirection": true,
+	"ignoreGravity": true,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 0,
+	"upDownMoveSpeed": 0,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 2,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 4,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 58,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 0,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 90
+}
+}, {
+	"id": 3,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 5,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 11,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 6,
+	"commandType": 17,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"objectFilterEffect": {
+	"effectType": 9,
+	"noise": 100,
+	"mosaic": 100,
+	"monochrome": 100,
+	"sepia": 100,
+	"negaPosiReverse": 100,
+	"defocus": 100,
+	"chromaticAberration": 100,
+	"darkness": 100,
+	"transparency": 100,
+	"blinkInterval300": 30,
+	"imageId": -1,
+	"imageTransparency": 0,
+	"imagePlacement": 0,
+	"fillA": 196,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"duration300": 0
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 150,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 10,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"disappear": {}
+} ],
+	"memo": "",
+	"x": 28,
+	"y": 119,
+	"width": 144,
+	"height": 64,
+	"shortcutList": []
+},
+	"objActionLink2": {
+	"id": 2,
+	"typeIdPair": [ [-1, -1, -1], [-1, -1, -1] ],
+	"linkType": -1,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 0,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [  ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}
+}, {
+	"id": 2,
+	"objActionLink": {
+	"id": 0,
+	"typeIdPair": [ [-1, -1, -1], [-1, -1, -1] ],
+	"linkType": -1,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 0,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 5,
+	"condAnd": true,
+	"notFlag": false,
+	"attackAreaTouched": {
+	"wallBit": 15,
+	"objectType": 0,
+	"objectTypeByType": 0,
+	"objectGroup": -1,
+	"objectId": -1,
+	"attributeType": 0,
+	"attributePresetId": 1,
+	"attributeValue": 0,
+	"attributeEqual": true
+}
+}, {
+	"id": 2,
+	"ignored": false,
+	"type": 12,
+	"condAnd": true,
+	"notFlag": true,
+	"hpZero": {
+	"objectId": -2
+}
+} ],
+	"memo": "",
+	"coordList": [  ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+},
+	"objAction": {
+	"id": 4,
+	"name": "hit",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 3,
+	"animDirectionId": -1,
+	"takeOverMotion": true,
+	"jumpable": true,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": true,
+	"gravity": 20,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 100,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 5,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":true,
+
+"nearPlayerLockedPlayerPrior": true,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+}, {
+	"id": 4,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 15,
+	"stopGame": false
+}
+}, {
+	"id": 1,
+	"commandType": 54,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"displayDirectionMove": {
+    "distanceOverride": true,
+    "moveDistance": 24,
+    "reverse": true
+}
+
+}, {
+	"id": 2,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 240,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 40,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"actionExec": {
+	"objectId": -2,
+	"qualifierId": -1,
+	"actionId": 1
+}
+} ],
+	"memo": "",
+	"x": -120,
+	"y": 120,
+	"width": 120,
+	"height": 64,
+	"shortcutList": []
+},
+	"objActionLink2": {
+	"id": 2,
+	"typeIdPair": [ [-1, -1, -1], [-1, -1, -1] ],
+	"linkType": -1,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 0,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [  ],
+	"memo": "",
+	"coordList": [  ],
+	"endPointFactor": [ -1, -1 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}
+} ],
+					"commonActionGroup": {
+	"id": 99999999,
+	"name": "Common Actions",
+	"a": 255,
+	"r": 255,
+	"g": 255,
+	"b": 0,
+	"actionIdList": [ 5, 4 ],
+	"x": -124,
+	"y": 72,
+	"width": 300,
+	"height": 116,
+	"collapsed": false
+},
+					"aroundCharacterViewSettingFlag": false,
+					"aroundCharacterViewSetting": {
+	"tileOn": true,
+	"objectOn": true,
+	"viewType": 0,
+	"multiplyFill": true,
+	"fillA": 255,
+	"fillR": 255,
+	"fillG": 255,
+	"fillB": 255,
+	"transparency": 0,
+	"width": 0,
+	"height": 0
+},
+					"invincibleSettingFlag": false,
+					"invincibleSettingList": [  ],
+					"damagedSettingFlag": false,
+					"damagedSettingList": [  ],
+					"moveRestrictionSettingFlag": false,
+					"moveRestrictionSettingList": [  ],
+							"variableList": [
+					{
+    "folder": false,
+    "id": 1,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Object ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 2,
+    "initialValue": 5,
+    "memo": "",
+    "name": "HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 3,
+    "initialValue": 5,
+    "memo": "",
+    "name": "Max HP",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 4,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Min Attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 5,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Max attack",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 15,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Critical Boost (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 16,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Critical Rate (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 6,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Rate",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 36,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Damage Spread",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 7,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Attack Attribute",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 8,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Area Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 9,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 10,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Coordinate Position",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 37,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Direction",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 32,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale X (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 33,
+    "initialValue": 100,
+    "memo": "",
+    "name": "Scale Y (%)",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 11,
+    "initialValue": 0,
+    "memo": "",
+    "name": "X Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 12,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Y Direction Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 23,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 24,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 25,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 26,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Acceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 27,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 28,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Max Movement",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 29,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Horizontal Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 30,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Vertical Deceleration",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 35,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Initial Jump Speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 13,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Player Detection",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 22,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Controller ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 14,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Received Damage Amount",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 17,
+    "initialValue": 0.4,
+    "memo": "",
+    "name": "Time of Invincibility",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 18,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Animation frame",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 19,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 21,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Single Unit Instance ID",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 20,
+    "initialValue": 0,
+    "memo": "",
+    "name": "No. of Same Instances Placed in Scene",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 31,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Duration to take over accelerated speed",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 34,
+    "initialValue": 0,
+    "memo": "",
+    "name": "Display Priority",
+    "toBeSaved": true
+}
+,
+					{
+    "folder": false,
+    "id": 38,
+    "initialValue": -1,
+    "memo": "",
+    "name": "Parent Object Instance ID",
+    "toBeSaved": true
+}
+
+							],
+							"switchList": [
+							{
+			"id": 1,
+			"name": "Invincibility",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 2,
+			"name": "Free Movement",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 3,
+			"name": "Lock Target",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 4,
+			"name": "Portal Touched",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 5,
+			"name": "Critical Received",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 6,
+			"name": "Disable",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 7,
+			"name": "SlipOnSlope",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 8,
+			"name": "AffectOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 9,
+			"name": "AffectedByOtherPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 10,
+			"name": "FollowConnectedPhysics",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		},
+							{
+			"id": 11,
+			"name": "Display Afterimage",
+			"initialValue": false,
+			"toBeSaved": true,
+			"memo": "",
+			"folder": false
+		}
+							],
+					"databaseSettingFlag": false,
+					"databaseId": 0,
+							"physicsPartList": [
+					
+							],
+							"priorityInPhysics": 0
+,
+					"folder": false
+				},
+				{
+					"id": 26,
+					"name": "enemyBow_lookingAtPlayer",
+					"type": 1,
+					"group": 1,
+					"animationId": 12,
+					"operatable": false,
+					"priority": 0,
+					"initialActionId": 1,
+					"initialDisplayDirectionFlag": false,
+					"initialDisplayDirection": 90.000000,
+					"hitPlayerGroup": true,
+					"hitEnemyGroup": false,
+					"hitObjectGroupBit": 1,
+					"collideWithPlayerGroup": false,
+					"collideWithEnemyGroup": false,
+					"collideWithObjectGroupBit": 0,
+					"collideWithTile": true,
+					"collideWithTileGroupBit": 1,
+					"dispPriority": 0,
+					"actionList": [ {
+	"id": 1,
+	"name": "idle/look towards player",
+	"a": 255,
+	"r": 166,
+	"g": 166,
+	"b": 166,
+	"animMotionId": 1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 0,
+	"upDownMoveSpeed": 0,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 1,
+	"commandType": 0,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"templateMove": {
+	"moveType": 4,
+
+"horizontalMoveStartRight": false,
+
+"horizontalMoveDuration300": 300,
+
+"horizontalInfinite": false,
+
+"verticalMoveStartDown": false,
+
+"verticalMoveDuration300": 300,
+
+"verticalInfinite": false,
+
+"randomMoveDuration300": 300,
+
+"randomMoveStop300": 300,
+
+"nearObjectGroup":0,
+
+"nearObjectLockedObjectPrior":false,
+
+"nearPlayerLockedPlayerPrior": false,
+
+"apartNearObjectGroup":0,
+
+"apartNearObjectLockedObjectPrior": false,
+
+"apartNearPlayerLockedPlayerPrior": false,
+
+"fallFromStep": true,
+
+"ignoreOtherObjectWallArea": false,
+
+"ignoreWall": false
+}
+} ],
+	"memo": "",
+	"x": -168,
+	"y": -24,
+	"width": 312,
+	"height": 48,
+	"shortcutList": []
+}, {
+	"id": 2,
+	"name": "Attack",
+	"a": 255,
+	"r": 255,
+	"g": 0,
+	"b": 0,
+	"animMotionId": 1,
+	"animDirectionId": -1,
+	"takeOverMotion": false,
+	"jumpable": false,
+	"enableCustomizedJump": false,
+	"ignoreMoveInput": false,
+	"keepDirection": false,
+	"ignoreGravity": false,
+	"gravity": 100,
+	"reflectGravityToDisplayDirection": false,
+	"moveSpeed": 0,
+	"upDownMoveSpeed": 100,
+	"jumpSpeed": 100,
+	"turnSpeed": 100,
+	"objCommandList": [ {
+	"id": 1,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 2,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+}, {
+	"id": 5,
+	"commandType": 34,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"wait": {
+	"duration300": 90,
+	"stopGame": false
+}
+}, {
+	"id": 3,
+	"commandType": 9,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"bulletFire": {
+	"bulletId": 1,
+	"connectId": 4
+}
+}, {
+	"id": 4,
+	"commandType": 25,
+	"ignored": false,
+	"instanceConfigurable": false,
+	"soundPlay": {
+	"soundType": 0,
+	"seId": 3,
+	"voiceId": -1,
+	"bgmId": -1,
+	"loop": false,
+	"fadein": false,
+	"duration300": 300,
+	"specifyAudioPosition": false,
+	"audioPositionVariableObjectId": -1,
+	"audioPositionVariableQualifierId": -1,
+	"audioPositionVariableId": -1,
+	"volume": 100,
+	"pan": 0,
+	"pitch": 0
+}
+} ],
+	"memo": "",
+	"x": -72,
+	"y": -168,
+	"width": 168,
+	"height": 48,
+	"shortcutList": []
+} ],
+					"actionLinkList": [ {
+	"id": 1,
+	"typeIdPair": [ [0, 1, -1], [0, 2, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 16,
+	"condAnd": true,
+	"notFlag": false,
+	"waitTime": {
+	"time": 2
+}
+}, {
+	"id": 2,
+	"ignored": false,
+	"type": 13,
+	"condAnd": true,
+	"notFlag": true,
+	"cameraOutOfRange": {
+	"objectId": -2,
+	"distanceFlag": false,
+	"distance": 0
+}
+} ],
+	"memo": "",
+	"coordList": [ [ 24, -24 ], [ 24, -121 ] ],
+	"endPointFactor": [ 553, 2186 ],
+	"visible": true,
+	"num": 0,
+	"actionLinkIdList": [  ]
+}, {
+	"id": 2,
+	"typeIdPair": [ [0, 2, -1], [0, 1, -1] ],
+	"linkType": 0,
+	"priority": 0,
+	"a": 255,
+	"r": 0,
+	"g": 0,
+	"b": 0,
+	"changeConditionType": 1,
+	"noInput": false,
+	"useInput": false,
+	"inputConditionList": [  ],
+	"linkConditionList": [ {
+	"id": 1,
+	"ignored": false,
+	"type": 16,
+	"condAnd": true,
+	"notFlag": false,
+	"waitTime": {
+	"time": 0.5
+}
+} ],
+	"memo": "",
+	"coordList": [ [ -45, -121 ], [ -45, -24 ] ],
+	"endPointFactor": [ 2556, 354 ],
 	"visible": true,
 	"num": 0,
 	"actionLinkIdList": [  ]
@@ -100181,8 +101145,8 @@
 			"originType": 1,
 			"originX": 0,
 			"originY": 0,
-			"resourceInfoList": [ { "id": 1, "image": true, "imageId": 54, "hdivCount": 3, "vdivCount": 2 }, { "id": 2, "image": true, "imageId": 55, "hdivCount": 1, "vdivCount": 1 } ],
-			"motionList": [ { "id": 1, "name": "Idle", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": true, "reversePlay": false, "directionList": [ { "id": 1, "name": "4", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [ { "frame": 0, "x": 1, "y": 33, "width": 32, "height": 48, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 75, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 4, "frameCount300": 30, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 5, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 }, { "id": 6, "frameCount300": 45, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 1 }, { "id": 2, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 }, { "id": 3, "name": "6", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [ { "frame": 0, "x": 31, "y": 33, "width": 32, "height": 48, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 75, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 2, "frameCount300": 30, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 3, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 }, { "id": 4, "frameCount300": 45, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 1 }, { "id": 5, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 1 }, { "id": 6, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 } ] }, { "id": 3, "name": "hit", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "left", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 }, { "id": 3, "name": "right", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 1, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 } ] }, { "id": 2, "name": "projectile", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 2, "name": "6", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 1, "centerX": 24, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 }, { "id": 1, "name": "4", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 1, "centerX": 8, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 } ] } ],
+			"resourceInfoList": [ { "id": 1, "image": true, "imageId": -1, "hdivCount": 3, "vdivCount": 2 }, { "id": 2, "image": true, "imageId": 55, "hdivCount": 1, "vdivCount": 1 }, { "id": 3, "image": true, "imageId": 53, "hdivCount": 4, "vdivCount": 1 } ],
+			"motionList": [ { "id": 1, "name": "Idle", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": true, "reversePlay": false, "directionList": [ { "id": 1, "name": "4", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [ { "frame": 0, "x": 1, "y": 33, "width": 32, "height": 48, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 75, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 4, "frameCount300": 30, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 3, "imageTileY": 0 }, { "id": 5, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 }, { "id": 6, "frameCount300": 45, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 2, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 }, { "id": 2, "name": "6", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [ { "frame": 0, "x": 31, "y": 33, "width": 32, "height": 48, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 75, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 }, { "id": 2, "frameCount300": 30, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 3, "imageTileY": 0 }, { "id": 3, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 }, { "id": 4, "frameCount300": 45, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 2, "imageTileY": 0 }, { "id": 5, "frameCount300": 20, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 1, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 } ] }, { "id": 3, "name": "hit", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 1, "name": "left", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 10, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 }, { "id": 3, "name": "right", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 3, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [ { "frame": 0, "x": 11, "y": 12, "width": 11, "height": 36, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [  ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 0, "centerX": 16, "centerY": 30, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 48 } ] }, { "id": 2, "name": "projectile", "dispFrameCount300": 5, "loopCount": 1, "infiniteLoop": false, "reversePlay": false, "directionList": [ { "id": 2, "name": "6", "directionBit": 64, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 1, "centerX": 24, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": true, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 }, { "id": 1, "name": "4", "directionBit": 16, "autoGeneration": false, "yFlip": false, "resourceInfoId": 2, "animationName": "", "timelineInfoList": [ { "id": 4, "name": "Connection Point", "timelineType": 3, "areaList": [  ] }, { "id": 1, "name": "Wall Detection", "timelineType": 0, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] }, { "id": 2, "name": "Collision Detection", "timelineType": 1, "areaList": [  ] }, { "id": 3, "name": "Attack Detection", "timelineType": 2, "areaList": [ { "frame": 0, "x": 5, "y": 6, "width": 22, "height": 5, "backside": false, "valid": true, "interpType": 0 } ] } ], "frameList": [ { "id": 1, "frameCount300": 5, "interpType": 0, "playSe": false, "playSeId": -1, "playVoice": false, "playVoiceId": -1, "centerOrigin": true, "originX": 0, "originY": 0, "offsetX": 0, "offsetY": 1, "centerX": 8, "centerY": 8, "scalingX": 100, "scalingY": 100, "flipX": false, "flipY": false, "rotation": 0, "alpha": 255, "r": 255, "g": 255, "b": 255, "imageTileX": 0, "imageTileY": 0 } ], "frameLocked": false, "framePreviewVisible": true, "imageWidth": 32, "imageHeight": 16 } ] } ],
 			"memo": "",
 			"folder": false
 		},
